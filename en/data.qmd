@@ -22,6 +22,6 @@ The dataset gathers figures from the financial statements published by Brazilian
 
 ## How to cite
 
-> Lisboa, T. A. B. de (2026). *Observatório SAF: financial dataset of Brazilian football clubs* (Version 1.0.0). <https://github.com/observatorio-ufmg-saf-futebol/dados>
+> Lisboa, T. A. B. de (2026). *Observatório SAF: financial dataset of Brazilian football clubs* (Version 1.0.1). <https://github.com/observatorio-ufmg-saf-futebol/dados>
 
 Free for non-commercial use with attribution ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)). Published corrections are logged in [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).

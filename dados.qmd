@@ -22,6 +22,6 @@ A base reúne valores das demonstrações financeiras publicadas por SAFs e asso
 
 ## Como citar
 
-> LISBOA, Tiago Amadeu Braga de. **Observatório SAF: base de dados financeiros de clubes de futebol brasileiros**. Versão 1.0.0. 2026. Disponível em: <https://github.com/observatorio-ufmg-saf-futebol/dados>.
+> LISBOA, Tiago Amadeu Braga de. **Observatório SAF: base de dados financeiros de clubes de futebol brasileiros**. Versão 1.0.1. 2026. Disponível em: <https://github.com/observatorio-ufmg-saf-futebol/dados>.
 
 Uso livre para fins não comerciais, com citação da fonte ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br)). Correções publicadas ficam registradas em [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).

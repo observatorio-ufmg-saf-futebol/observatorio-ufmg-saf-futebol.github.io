@@ -29,5 +29,12 @@ $border-color: #2C3D36;
   --obs-debit: #{$debito};
   --obs-line: #2C3D36;
   --obs-chart: #{$gramado-claro};
+  /* Séries do painel (até 6 clubes); paleta validada para daltonismo */
+  --obs-s1: #3987e5;
+  --obs-s2: #d95926;
+  --obs-s3: #199e70;
+  --obs-s4: #c98500;
+  --obs-s5: #d55181;
+  --obs-s6: #9085e9;
   --obs-panel: #1A2A23;
 }

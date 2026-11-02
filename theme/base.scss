@@ -129,6 +129,65 @@ table { font-variant-numeric: tabular-nums; }
 .obs-negativo { color: var(--obs-debit); }
 .obs-downloads a { margin-right: 1.2rem; font-family: "Barlow", sans-serif; font-weight: 600; }
 
+// Seletores do painel
+.obs-seletor {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 0.4rem 1rem;
+  align-items: start;
+  margin: 0 0 1rem;
+  font-family: "Barlow", system-ui, sans-serif;
+}
+.obs-seletor-rotulo { padding-top: 0.45rem; font-weight: 600; }
+.obs-seletor-corpo { min-width: 0; }
+.obs-seletor-linha { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.obs-seletor select, .obs-seletor input {
+  font: inherit;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--obs-line);
+  border-radius: 4px;
+  background: var(--obs-bg);
+  color: var(--obs-ink);
+  min-width: 0;
+}
+.obs-seletor select { flex: 1 1 18rem; max-width: 26rem; }
+.obs-seletor input { flex: 1 1 14rem; max-width: 20rem; }
+.obs-seletor input:disabled { opacity: 0.7; }
+.obs-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.5rem; }
+.obs-chips:empty { display: none; }
+.obs-chip {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font: inherit; font-size: 0.95rem;
+  padding: 0.2rem 0.6rem 0.2rem 0.45rem;
+  border: 1px solid var(--obs-line); border-radius: 999px;
+  background: var(--obs-panel); color: var(--obs-ink); cursor: pointer;
+}
+.obs-chip:hover .obs-chip-x { color: var(--obs-debit); }
+.obs-chip-cor { width: 0.8rem; height: 0.8rem; border-radius: 50%; flex: none; }
+.obs-chip-x { color: var(--obs-muted); font-size: 1.05rem; line-height: 1; }
+.obs-botao, .obs-acoes button {
+  font: inherit; font-size: 0.95rem; font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--obs-line); border-radius: 4px;
+  background: transparent; color: var(--obs-ink); cursor: pointer;
+}
+.obs-botao:hover, .obs-acoes button:hover { border-color: var(--obs-ink); }
+.obs-seletor-aviso { margin: 0.3rem 0 0; font-size: 0.9rem; color: var(--obs-debit); }
+.obs-seletor-aviso:empty { display: none; }
+.obs-indicador-nota, .obs-legenda-saf {
+  font-family: "Barlow", system-ui, sans-serif;
+  font-size: 0.95rem; color: var(--obs-muted); max-width: 68ch;
+}
+.obs-legenda-saf { margin-top: 0.2rem; }
+.obs-ranking-topo { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; margin-top: 1.5rem; }
+.obs-ranking-topo h3 { margin: 0; }
+.obs-acoes { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; font-family: "Barlow", sans-serif; }
+.obs-acoes a { font-weight: 600; }
+@media (max-width: 600px) {
+  .obs-seletor { grid-template-columns: 1fr; }
+  .obs-seletor-rotulo { padding-top: 0; }
+}
+
 // ---------- Glossário ----------
 dl.obs-glossario dt {
   font-family: "Barlow Condensed", sans-serif;
