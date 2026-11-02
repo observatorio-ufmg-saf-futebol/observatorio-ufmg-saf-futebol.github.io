@@ -1,0 +1,16 @@
+---
+title: "Do balanço à arquibancada"
+subtitle: "A coluna do Observatório para quem torce"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, description, categories, reading-time]
+  date-format: "D [de] MMMM [de] YYYY"
+  feed: true
+---
+
+[O que as contas dizem sobre o seu time, em textos curtos e sem jargão. Os números citados saem da base do Observatório, e cada texto aponta a fonte.]{.obs-coluna-intro}

@@ -1,0 +1,48 @@
+---
+title: "Cinco perguntas para ler o balanço do seu clube"
+description: "Não precisa ser contador. Com cinco perguntas e quatro números, dá para entender a situação financeira de qualquer time."
+date: 2026-11-08
+categories: [primeiros passos]
+---
+
+[Read in English](../../../en/column/posts/2026-11-five-questions/index.html)
+
+Todo ano os clubes publicam suas demonstrações financeiras. São documentos longos, cheios de tabelas e notas, e a maioria dos torcedores nunca abre. Mas boa parte do que importa cabe em cinco perguntas.
+
+## 1. O clube deve mais do que tem?
+
+Procure o **patrimônio líquido** no fim do balanço patrimonial (nas associações, o nome é patrimônio social). Ele é a diferença entre tudo o que o clube tem e tudo o que deve.
+
+Se o número vier negativo, entre parênteses, o clube está com **passivo a descoberto**: as dívidas superam todos os bens e direitos registrados. É uma situação frequente no futebol brasileiro. Não significa que o clube vai fechar amanhã, mas mostra que décadas de déficit se acumularam.
+
+## 2. Dá para pagar as contas do próximo ano?
+
+Compare o **ativo circulante** (dinheiro em caixa e valores que entram em até um ano) com o **passivo circulante** (o que vence em até um ano). Divida um pelo outro e você tem a liquidez corrente.
+
+Abaixo de 1, o clube tem mais contas vencendo do que recursos de curto prazo. Na prática, vai depender de antecipar receitas, vender jogadores, renegociar dívidas ou receber aporte do dono.
+
+## 3. Quanto da receita vai para a folha?
+
+Some os gastos com pessoal (salários, direitos de imagem, encargos) e divida pela receita. Esse número mostra quanto sobra para todo o resto: estrutura, base, juros, contratações.
+
+Como referência, a UEFA limita os gastos com elenco a 70% das receitas para os clubes nas competições europeias. A conta da UEFA é mais ampla, porque inclui também a amortização de contratações e as comissões de agentes, mas a ideia é a mesma: folha alta demais deixa o clube sem margem para errar.
+
+## 4. O futebol se paga sem vender jogador?
+
+Olhe o **resultado operacional**, o quanto sobra ou falta antes dos juros. Depois veja quanto da receita veio de venda de atletas.
+
+Vender jogador é parte do negócio, mas é uma receita que oscila muito. Um clube que só fecha no azul no ano em que faz uma grande venda está apostando que esse ano vai se repetir. Na base do Observatório, a receita comparável deixa a venda de atletas de fora justamente para mostrar isso.
+
+## 5. O que disse o auditor?
+
+Logo no começo ou no fim do documento está o relatório do auditor independente. Procure três coisas:
+
+- **Opinião com ressalva**: o auditor encontrou um problema e diz onde.
+- **Parágrafo de ênfase**: algo relevante que merece atenção, sem mudar a opinião.
+- **Incerteza sobre a continuidade operacional**: o auditor tem dúvida séria sobre a capacidade de o clube seguir honrando seus compromissos.
+
+Nenhuma dessas expressões é condenação, mas todas são motivo para ler as notas com mais cuidado.
+
+## Onde encontrar os números
+
+Os clubes publicam as demonstrações no próprio site, em geral numa área de transparência. Se preferir pular essa parte, o [painel do Observatório](../../../dados.qmd) já traz esses indicadores organizados por clube e ano, e o [glossário](../../../glossario.qmd) explica cada termo.

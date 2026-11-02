@@ -1,0 +1,34 @@
+---
+title: "SAF ou associação: o que muda nas contas"
+description: "Lucro ou superávit, capital ou patrimônio social, AFAC e ano de transição. O que observar antes de comparar uma SAF com um clube associativo."
+date: 2026-11-15
+categories: [primeiros passos, SAF]
+---
+
+Desde a Lei nº 14.193/2021, o futebol brasileiro convive com dois formatos: o clube associativo tradicional, sem dono, e a Sociedade Anônima do Futebol, uma empresa com acionistas. Os dois publicam balanço, mas os documentos não se leem do mesmo jeito.
+
+## Os nomes mudam
+
+Na associação, o resultado do ano é **superávit** ou **déficit**, e a diferença entre bens e dívidas é o **patrimônio social**. Na SAF, os termos são os de qualquer empresa: **lucro** ou **prejuízo**, **capital social** e **patrimônio líquido**.
+
+A lógica é a mesma. O que muda é a quem o resultado pertence: na associação, ao próprio clube; na SAF, aos acionistas, entre eles a associação que deu origem à SAF.
+
+## A associação não desaparece
+
+Quando o futebol vira SAF, o clube associativo continua existindo e passa a ser acionista. Muitas vezes fica com o clube social, parte do patrimônio e, principalmente, com dívidas antigas. Por isso, ao olhar só o balanço da SAF, você pode estar vendo uma empresa nova, com menos passivo, enquanto a dívida histórica segue do outro lado.
+
+Para entender a situação completa, vale olhar os dois balanços: o da SAF e o da associação.
+
+## O dinheiro do dono aparece de outro jeito
+
+Na SAF, o investidor costuma colocar dinheiro por meio de **aumento de capital** ou de **AFAC**, o adiantamento para futuro aumento de capital. Esses valores entram no patrimônio líquido (ou no passivo, dependendo das condições) e não aparecem como receita. Um clube pode ter prejuízo alto e, mesmo assim, ver o patrimônio crescer, porque o dono cobriu o buraco.
+
+Numa associação, não há esse caminho. O déficit se acumula no patrimônio social ou vira dívida.
+
+## O ano da mudança engana
+
+No ano em que a SAF é criada, as demonstrações podem cobrir só alguns meses, a associação pode consolidar a SAF nas próprias contas, e as comparações com o ano anterior perdem sentido. Na base do Observatório, as colunas `regime_entidade`, `exercicio_parcial` e `saf_consolidada_em_associacao` indicam essas situações.
+
+## Antes de comparar
+
+Comparar uma SAF com uma associação é possível, desde que você saiba qual entidade assinou cada balanço, se o período foi completo e onde ficaram as dívidas antigas. O [painel](../../../dados.qmd) permite filtrar por clube e ano, e o [dicionário de variáveis](../../../dados.qmd#dicionario) explica como cada número foi padronizado.

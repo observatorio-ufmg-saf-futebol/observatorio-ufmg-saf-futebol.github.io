@@ -1,0 +1,64 @@
+---
+title: "Glossary"
+description: "The terms that appear most often in club financial statements, in plain language."
+---
+
+Brazilian terms are given in parentheses, since they appear in the dataset and in the clubs' statements.
+
+<dl class="obs-glossario">
+
+<dt>Advance for future capital increase (AFAC)</dt>
+<dd>Money a shareholder puts into the company before a capital increase is formally approved. In SAFs it is a common way for owners to fund the club. Until approved, it may sit in equity or in liabilities, depending on its terms.</dd>
+
+<dt>Assets (ativo)</dt>
+<dd>Everything the club controls that should bring in cash later: cash, receivables, stadium and training ground, player registrations. <em>Current assets</em> turn into cash within a year.</dd>
+
+<dt>Liabilities (passivo)</dt>
+<dd>Everything the club owes: wages, taxes, loans, instalments on player purchases, labour settlements. <em>Current liabilities</em> fall due within a year.</dd>
+
+<dt>Equity (patrimônio líquido / patrimônio social)</dt>
+<dd>Assets minus liabilities. SAFs call it patrimônio líquido; member-owned associations call it patrimônio social.</dd>
+
+<dt>Negative equity (passivo a descoberto)</dt>
+<dd>When the club owes more than it owns. Common in Brazilian football, it shows that accumulated debt exceeds all recorded assets.</dd>
+
+<dt>Operating revenue (receita operacional)</dt>
+<dd>Income from the club's activity: broadcasting, sponsorship, matchday, membership, prize money and player sales. The dataset's <em>comparable revenue</em> removes items that distort comparisons across clubs and years; the dictionary explains each case.</dd>
+
+<dt>EBIT (resultado operacional)</dt>
+<dd>What is left from operations before interest and other financial items. It shows whether football pays for itself, before the cost of debt. It is not the bottom line.</dd>
+
+<dt>Player registrations (direitos sobre atletas)</dt>
+<dd>Amounts paid to sign players (and, under certain conditions, youth development costs) recorded as intangible assets and amortised over the contract.</dd>
+
+<dt>Current ratio (liquidez corrente)</dt>
+<dd>Current assets divided by current liabilities. Below 1, more bills fall due within a year than short-term resources available to pay them.</dd>
+
+<dt>Leverage (alavancagem)</dt>
+<dd>Share of assets financed by liabilities. Above 100%, the club has negative equity.</dd>
+
+<dt>SAF (Sociedade Anônima do Futebol)</dt>
+<dd>A company form created by Brazilian Law 14,193/2021 for football. A member-owned club can transfer its football operation to an SAF and sell shares to investors.</dd>
+
+<dt>Centralised Enforcement Regime (RCE)</dt>
+<dd>A mechanism in the SAF Law that brings court claims against the club into a single court and organises payment to creditors from part of the revenue.</dd>
+
+<dt>Judicial reorganisation (recuperação judicial)</dt>
+<dd>A court-supervised process in which a company (and, under the SAF Law, also a member-owned club) agrees a payment plan with creditors to avoid bankruptcy.</dd>
+
+<dt>Related parties (partes relacionadas)</dt>
+<dd>People and companies linked to the club or its owner, such as the controlling shareholder and group companies. Transactions with them must be disclosed in the notes.</dd>
+
+<dt>Auditor's report (relatório do auditor)</dt>
+<dd>An independent auditor's opinion on the statements: unmodified, qualified (a specific problem), adverse, or a disclaimer. An <em>emphasis of matter</em> paragraph highlights something important without changing the opinion.</dd>
+
+<dt>Going concern (continuidade operacional)</dt>
+<dd>The assumption that the club will keep operating. A material uncertainty flagged by the auditor means serious doubt about meeting obligations.</dd>
+
+<dt>Solidarity mechanism (mecanismo de solidariedade)</dt>
+<dd>A FIFA rule that sets aside up to 5% of an international transfer fee for the clubs that trained the player between ages 12 and 23.</dd>
+
+<dt>ITG 2003</dt>
+<dd>The Brazilian Federal Accounting Council's interpretation governing accounting for sports entities, including player registrations and youth development costs.</dd>
+
+</dl>

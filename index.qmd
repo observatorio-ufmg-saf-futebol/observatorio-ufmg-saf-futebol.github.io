@@ -1,0 +1,59 @@
+---
+title: "Observatório SAF"
+pagetitle: "Observatório SAF"
+page-layout: full
+title-block-banner: false
+listing:
+  id: ultimos-textos
+  contents: "coluna/posts"
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description, reading-time]
+  date-format: "D [de] MMMM [de] YYYY"
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+<section class="obs-capa column-screen">
+  <div class="obs-capa-inner">
+    <h1>O balanço do seu clube, aberto.</h1>
+    <p>Dados das demonstrações financeiras de SAFs e associações do futebol brasileiro,
+    conferidos contra a fonte e livres para consulta, download e pesquisa.</p>
+  </div>
+</section>
+
+<section class="obs-metades obs-ui" aria-label="Entradas do site">
+  <div class="obs-metade">
+    <h2>Para quem torce</h2>
+    <p>Entenda o que os números dizem sobre o seu time.</p>
+    <ul>
+      <li><a href="coluna/index.html">Coluna Do balanço à arquibancada</a>
+          <span>Textos curtos sobre as contas dos clubes, sem jargão.</span></li>
+      <li><a href="dados.html">Painel por clube</a>
+          <span>Receita, dívidas e resultado ao longo dos anos.</span></li>
+      <li><a href="glossario.html">Glossário</a>
+          <span>AFAC, passivo a descoberto e outros termos do balanço.</span></li>
+    </ul>
+  </div>
+  <div class="obs-metade">
+    <h2>Para quem pesquisa</h2>
+    <p>Base em painel, documentada e versionada.</p>
+    <ul>
+      <li><a href="dados.html#baixar">Baixar a base</a>
+          <span>CSV, Parquet e SQLite, com manifesto de integridade.</span></li>
+      <li><a href="dados.html#dicionario">Dicionário de variáveis</a>
+          <span>Definição, unidade e fórmula de cada campo.</span></li>
+      <li><a href="pesquisa.html">Artigos e preprints</a>
+          <span>Publicações que usam a base.</span></li>
+    </ul>
+  </div>
+</section>
+```
+
+::: {.column-body}
+## Últimos textos da coluna
+
+::: {#ultimos-textos}
+:::
+:::

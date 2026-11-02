@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+// Versão noturna: campo sob refletores.
+$noite: #13201B;
+$cal: #E6ECE8;
+$gramado-claro: #7FC4A2;
+$bandeirinha: #E8B931;
+$debito: #E07B7B;
+$neblina: #9AAAA2;
+
+$body-bg: $noite;
+$body-color: $cal;
+$primary: $gramado-claro;
+$link-color: $gramado-claro;
+$navbar-bg: #0F1A16;
+$navbar-fg: $cal;
+$navbar-hl: $bandeirinha;
+$footer-bg: $noite;
+$code-bg: #1C2B25;
+$border-color: #2C3D36;
+
+/*-- scss:rules --*/
+:root {
+  --obs-bg: #{$noite};
+  --obs-ink: #{$cal};
+  --obs-muted: #{$neblina};
+  --obs-field: #1E3B2F;
+  --obs-field-ink: #{$cal};
+  --obs-flag: #{$bandeirinha};
+  --obs-debit: #{$debito};
+  --obs-line: #2C3D36;
+  --obs-chart: #{$gramado-claro};
+  --obs-panel: #1A2A23;
+}

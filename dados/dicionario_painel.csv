@@ -1,0 +1,184 @@
+campo,tipo,unidade,descricao_pt,description_en
+demonstracao_id,texto,—,Identificador da demonstração financeira que originou a linha (chave para demonstracao.csv),Identifier of the financial statement behind the row (key to demonstracao.csv)
+clube_id,inteiro,—,Identificador único do clube,Unique club identifier
+clube,texto,—,Nome do clube,Club name
+ano,inteiro,—,Exercício social impresso nas demonstrações,Fiscal year printed in the statements
+saf,0/1,—,1 se o futebol estava organizado como SAF no exercício (valor original da base); vazio em anos de transição,1 if football was organized as an SAF in the year (original value); blank in transition years
+pontos,—,—,Coluna original preservada vazia,Original column kept blank
+vm_rs_mi,—,—,Coluna original preservada vazia; motivo em vm_rs_mi_motivo_em_branco,Original column kept blank; reason in vm_rs_mi_motivo_em_branco
+receita_rec,decimal,R$ milhões,Receita operacional comparável apurada nas notas (sem itens como venda de atletas),Comparable operating revenue from the notes (excluding items such as player sales)
+pessoal,decimal,R$ milhões,Gastos com pessoal na rubrica agregada divulgada,Personnel costs as disclosed in aggregate
+ativo_circ,decimal,R$ milhões,Ativo circulante no fim do exercício,Current assets at year end
+passivo_circ,decimal,R$ milhões,Passivo circulante no fim do exercício,Current liabilities at year end
+ativo_total,decimal,R$ milhões,Ativo total no fim do exercício,Total assets at year end
+patrimonio_liq,decimal,R$ milhões,Patrimônio líquido (ou social) no fim do exercício; negativo indica passivo a descoberto,Equity at year end; negative means liabilities exceed assets
+ebit,decimal,R$ milhões,Resultado operacional antes do resultado financeiro (não é lucro líquido nem EBITDA),Operating result before financial items (not net income nor EBITDA)
+regime_entidade,texto,—,"Natureza da entidade que assina as demonstrações (associacao, SAF, ltda, sa_comum)","Legal nature of the reporting entity (association, SAF, limited company, ordinary corporation)"
+ano_conversao,inteiro,—,Ano em que o futebol passou à SAF,Year football was transferred to the SAF
+exercicio_parcial,S/N,—,S quando o período não vai de 1/1 a 31/12,Y when the period is not Jan 1 to Dec 31
+periodo_inicio,data ISO,—,Início do período coberto pelas demonstrações,Start of the reporting period
+periodo_fim,data ISO,—,Fim do período coberto pelas demonstrações,End of the reporting period
+quadro_amostral,S/N,—,Pertence ao quadro amostral original (Série A 2023–2025),Belongs to the original sample frame (Série A 2023–2025)
+serie_a_2023,S/N,—,Clube disputou a Série A em 2023,Club played Série A in 2023
+serie_a_2024,S/N,—,Clube disputou a Série A em 2024,Club played Série A in 2024
+serie_a_2025,S/N,—,Clube disputou a Série A em 2025,Club played Série A in 2025
+coluna_intangivel,texto,—,"Coluna das demonstrações usada (única, controladora ou consolidado)","Statement column used (single, parent or consolidated)"
+ebit_ajustado,decimal,R$ milhões,EBIT menos os eventos não recorrentes identificados,EBIT minus identified non-recurring events
+ebit_evento_ids,texto,—,Ids dos eventos subtraídos do EBIT (evento_nao_recorrente.csv),Ids of events subtracted from EBIT (evento_nao_recorrente.csv)
+ebit_ajuste_pendente,texto,—,Ids de eventos cujo efeito no EBIT não pôde ser determinado,Ids of events whose EBIT effect could not be determined
+saf_consolidada_em_associacao,0/1,—,1 quando a SAF existe e é consolidada nas demonstrações da associação,1 when the SAF exists and is consolidated in the association's statements
+receita_expurgo_rs_mi,decimal,R$ milhões,Soma dos itens não recorrentes retirados da receita comparável,Sum of non-recurring items removed from comparable revenue
+receita_expurgo_evento_ids,texto,—,Ids dos eventos retirados da receita,Ids of events removed from revenue
+receita_rec_ajustada,decimal,R$ milhões,Receita comparável menos itens não recorrentes identificados (não é receita recorrente pura),Comparable revenue minus identified non-recurring items (not a pure recurring revenue)
+passivo_nao_circ,decimal,R$ milhões,"Passivo não circulante, lido do balanço numa conferência independente","Non-current liabilities, read from the balance sheet in an independent check"
+pagina_bp,inteiro,—,Página do balanço patrimonial no documento,Balance sheet page in the document
+identidade_at_fecha,texto,—,"Teste ativo = passivo circulante + não circulante + PL (S, N ou nao_aplicavel)","Test assets = current + non-current liabilities + equity (Y, N or not applicable)"
+identidade_at_diferenca,decimal,R$ milhões,Diferença no teste da identidade do balanço,Difference in the balance sheet identity test
+passivo_total_somado,decimal,R$ milhões,Passivo circulante + passivo não circulante (valores lidos),Current + non-current liabilities (values read)
+passivo_total,decimal,R$ milhões,Ativo total − patrimônio líquido,Total assets − equity
+alavancagem_financeira,razão,—,Passivo total / ativo total; acima de 1 quando o PL é negativo,Total liabilities / total assets; above 1 when equity is negative
+ccl,decimal,R$ milhões,Capital circulante líquido: ativo circulante − passivo circulante,Net working capital: current assets − current liabilities
+liquidez_corrente,razão,—,Ativo circulante / passivo circulante,Current assets / current liabilities
+endividamento_cp,razão,—,Passivo circulante / ativo total,Current liabilities / total assets
+participacao_pl_ativo,razão,—,Patrimônio líquido / ativo total,Equity / total assets
+intensidade_pessoal,razão,—,Pessoal / receita comparável,Personnel costs / comparable revenue
+comprometimento_pessoal_aj,razão,—,Pessoal / receita comparável ajustada,Personnel costs / adjusted comparable revenue
+margem_ebit,razão,—,EBIT / receita comparável,EBIT / comparable revenue
+margem_ebit_ajustada,razão,—,EBIT ajustado / receita comparável ajustada,Adjusted EBIT / adjusted comparable revenue
+ro_ativo,razão,—,EBIT / ativo total,EBIT / total assets
+ro_ativo_ajustado,razão,—,EBIT ajustado / ativo total,Adjusted EBIT / total assets
+pl_negativo,0/1,—,1 se o patrimônio líquido é negativo,1 if equity is negative
+log_ativo,decimal,—,Logaritmo natural do ativo total,Natural log of total assets
+giro_ativo_medio,razão,—,Receita comparável / média do ativo total em t e t−1,Comparable revenue / average total assets in t and t−1
+crescimento_receita,razão,—,Variação da receita comparável contra t−1,Change in comparable revenue versus t−1
+crescimento_ativo,razão,—,Variação do ativo total contra t−1,Change in total assets versus t−1
+saf_validada,0/1,—,1 quando a entidade que reporta no exercício é uma SAF,1 when the reporting entity in the year is an SAF
+ano_adocao_saf,inteiro,—,Igual a ano_conversao,Same as ano_conversao
+anos_desde_saf,inteiro,—,"Ano − ano de conversão, quando não negativo","Year − conversion year, when not negative"
+saf_transicao,0/1,—,1 no ano da conversão para SAF,1 in the year of conversion to SAF
+saf_full_year,0/1,—,"1 quando é SAF, o ano é posterior à conversão e o exercício é completo","1 when it is an SAF, after the conversion year, with a full fiscal year"
+saf_prop_months,—,—,"Vazia: exigiria a data de início da operação sob SAF, não levantada","Blank: would require the SAF start date, not collected"
+saf_clube_opera,0/1,—,"1 quando o clube opera sob SAF, ainda que reporte pela associação","1 when the club operates as an SAF, even if reporting through the association"
+pontos_serie_a,inteiro,pontos,Pontos no Campeonato Brasileiro Série A,Points in the Brazilian Série A
+posicao_final,inteiro,—,Posição final na Série A,Final Série A position
+jogos_disputados,inteiro,jogos,Jogos disputados na Série A,Série A matches played
+aproveitamento_pct,decimal,%,Aproveitamento na Série A,Série A points percentage
+saldo_gols,inteiro,gols,Saldo de gols na Série A,Série A goal difference
+competicao_referencia,texto,—,Competição de referência dos dados esportivos (Série A),Reference competition for sporting data (Série A)
+fonte_dados_esportivos,texto,—,Arquivo de origem dos dados esportivos,Source file of the sporting data
+serie_a,0/1,—,"1 se disputou a Série A no ano; 0 é um fato, não lacuna","1 if the club played Série A that year; 0 is a fact, not a gap"
+motivo_pontos_ausente,texto,—,Motivo da ausência de pontos da Série A,Reason Série A points are missing
+custo_por_ponto,decimal,R$ milhões por ponto,Pessoal / pontos na Série A,Personnel costs / Série A points
+vm_titular_medio_eur,decimal,euros,Valor de mercado médio dos titulares (Transfermarkt),Average market value of starters (Transfermarkt)
+idade_media_titulares,decimal,anos,Idade média dos titulares (Transfermarkt),Average age of starters (Transfermarkt)
+publico_medio_mandante,decimal,pessoas,Público médio em todos os jogos em casa (Transfermarkt),Average attendance across all home matches (Transfermarkt)
+publico_medio_mandante_com_publico,decimal,pessoas,Público médio só nos jogos em casa com público; comparável entre anos,Average attendance only in home matches with fans; comparable across years
+chutes_por_jogo,decimal,—,Finalizações por jogo (Transfermarkt),Shots per match (Transfermarkt)
+escanteios_por_jogo,decimal,—,Escanteios por jogo (Transfermarkt),Corners per match (Transfermarkt)
+rotatividade_tecnicos,inteiro,—,Técnicos distintos no ano (Transfermarkt),Distinct head coaches in the year (Transfermarkt)
+tm_temporada_completa,S/N,—,S quando o arquivo Transfermarkt cobre a temporada inteira,Y when the Transfermarkt file covers the full season
+n_vm,inteiro,jogos,Partidas usadas na média de valor de mercado,Matches used in the market value average
+n_idade,inteiro,jogos,Partidas usadas na média de idade,Matches used in the age average
+n_publico,inteiro,jogos,Partidas usadas na média de público,Matches used in the attendance average
+n_chutes,inteiro,jogos,Partidas usadas na média de finalizações,Matches used in the shots average
+n_escanteios,inteiro,jogos,Partidas usadas na média de escanteios,Matches used in the corners average
+jogos_casa_com_publico,inteiro,jogos,Jogos em casa com público,Home matches with fans
+jogos_casa_sem_publico,inteiro,jogos,Jogos em casa sem público,Home matches without fans
+copa_jogos,inteiro,jogos,Jogos na Copa do Brasil,Copa do Brasil matches
+copa_fase_mais_avancada,texto,—,Fase mais avançada alcançada na Copa do Brasil,Furthest Copa do Brasil stage reached
+copa_fase_indice,inteiro,—,"Índice ordinal da fase na Copa do Brasil (1 = 1ª eliminatória, 8 = final)","Ordinal Copa do Brasil stage index (1 = first round, 8 = final)"
+vm_rs_mi_motivo_em_branco,texto,—,Motivo de vm_rs_mi estar vazia,Reason vm_rs_mi is blank
+entidade_id,texto,—,Entidade que reporta (chave para entidade.csv),Reporting entity (key to entidade.csv)
+afac_saldo,decimal,R$ milhões,Saldo de adiantamento para futuro aumento de capital (AFAC),Balance of advances for future capital increase (AFAC)
+afac_classificacao,texto,—,"Onde o AFAC está classificado (patrimônio líquido, passivo etc.)","Where the AFAC is classified (equity, liabilities, etc.)"
+mutuo_saldo,decimal,R$ milhões,Saldo de mútuos (empréstimos) com partes relacionadas,Balance of loans from related parties
+divida_com_partes_relacionadas,decimal,R$ milhões,Dívida total com partes relacionadas,Total debt to related parties
+aporte_em_dinheiro,decimal,R$ milhões,Aportes em dinheiro recebidos de acionistas no exercício,Cash contributions received from shareholders in the year
+tem_afac_afac,S/N,—,Há AFAC nas demonstrações,AFAC appears in the statements
+tem_mutuo_afac,S/N,—,Há mútuo com partes relacionadas nas demonstrações,Related-party loans appear in the statements
+ausencia_verificada_afac,S/N,—,S quando a ausência de AFAC/mútuo foi verificada nas notas,Y when the absence of AFAC/loans was checked in the notes
+afac_sobre_pl,razão,—,Saldo de AFAC / patrimônio líquido,AFAC balance / equity
+identidade_at_detalhe,texto,—,Memória de cálculo do teste de identidade do balanço,Working of the balance sheet identity test
+criterio_inclusao,texto,—,Critério pelo qual o clube-ano entrou na base,Criterion by which the club-year entered the dataset
+quadro_amostral_ab,S/N,—,"Pertence ao quadro Série A ou B, 2020–2025","Belongs to the Série A or B frame, 2020–2025"
+regime_contabil,texto,—,Regime contábil das demonstrações (competência ou caixa),Accounting basis (accrual or cash)
+lote,texto,—,Lote de extração em que a linha foi incluída,Extraction batch in which the row was added
+divisao_disputada,texto,—,"Divisão nacional disputada no ano (A, B, C ou fora)","National division played that year (A, B, C or none)"
+pontos_divisao,inteiro,pontos,Pontos na divisão disputada,Points in the division played
+posicao_na_divisao,inteiro,—,Posição final na divisão disputada,Final position in the division played
+aproveitamento_divisao_pct,decimal,%,Aproveitamento na divisão disputada,Points percentage in the division played
+pontos_deducao,inteiro,pontos,Pontos deduzidos por punição,Points deducted as a penalty
+serie_b,0/1,—,1 se disputou a Série B no ano,1 if the club played Série B that year
+custo_por_ponto_divisao,decimal,R$ milhões por ponto,Pessoal / pontos na divisão disputada,Personnel costs / points in the division played
+pontos_1a_fase_c,inteiro,pontos,Pontos na 1ª fase da Série C,Points in the Série C first stage
+posicao_1a_fase_c,inteiro,—,Posição na 1ª fase da Série C,Position in the Série C first stage
+serie_c,0/1,—,1 se disputou a Série C no ano,1 if the club played Série C that year
+quadro_amostral_abc,S/N,—,"Pertence ao quadro Série A, B ou C, 2020–2025","Belongs to the Série A, B or C frame, 2020–2025"
+marca_comparabilidade,texto,—,"Quebras de comparabilidade da linha, separadas por ; (ver comparabilidade.csv)","Comparability breaks for the row, separated by ; (see comparabilidade.csv)"
+tem_marca_comparabilidade,S/N,—,S quando há alguma quebra de comparabilidade,Y when there is any comparability break
+caixa_final,decimal,R$ milhões,Caixa e equivalentes no fim do exercício (DFC),Cash and equivalents at year end (cash flow statement)
+fco,decimal,R$ milhões,Fluxo de caixa operacional,Operating cash flow
+fci,decimal,R$ milhões,Fluxo de caixa de investimento,Investing cash flow
+fcf,decimal,R$ milhões,Fluxo de caixa de financiamento,Financing cash flow
+resultado_financeiro,decimal,R$ milhões,Resultado financeiro líquido da DRE,Net financial result from the income statement
+lucro_liquido,decimal,R$ milhões,Resultado líquido do exercício (lucro/prejuízo ou superávit/déficit),Net result for the year (profit/loss or surplus/deficit)
+divida_identificada_total,decimal,R$ milhões,Soma das rubricas de dívida identificadas nas notas,Sum of debt items identified in the notes
+divida_cobertura_passivo_pct,decimal,%,Dívida identificada / (passivo circulante + não circulante),Identified debt / (current + non-current liabilities)
+tem_bloco_caixa,S/N,—,S quando os dados de caixa e DFC foram extraídos,Y when cash and cash flow data were extracted
+tem_bloco_divida,S/N,—,S quando o detalhamento de dívidas foi extraído,Y when the debt breakdown was extracted
+motivo_sem_bloco_bd,texto,—,Motivo da ausência dos dados de caixa e de dívida,Reason cash and debt data are missing
+pessoal_inclui_amortizacao_atletas,texto,—,Indica se pessoal inclui a amortização de atletas conforme a nota,Whether personnel costs include player amortisation as per the notes
+ressalva_quantificada,S/N,—,S quando o auditor quantificou o efeito de uma ressalva,Y when the auditor quantified the effect of a qualification
+ajuste_ressalva_rs_mi,decimal,R$ milhões,"Efeito quantificado da ressalva do auditor, com sinal","Quantified effect of the auditor's qualification, signed"
+ativo_total_ajustado_ressalva,decimal,R$ milhões,Ativo total com o efeito da ressalva aplicado,Total assets with the qualification effect applied
+patrimonio_liq_ajustado_ressalva,decimal,R$ milhões,Patrimônio líquido com o efeito da ressalva aplicado,Equity with the qualification effect applied
+ebit_ajustado_ressalva,decimal,R$ milhões,Vazio: o auditor não indica a linha da DRE afetada,Blank: the auditor does not state the affected income statement line
+ajuste_ressalva_fonte,texto,—,Origem do ajuste por ressalva,Source of the qualification adjustment
+ajuste_ressalva_obs,texto,—,Observação sobre o ajuste por ressalva,Note on the qualification adjustment
+sa_comum,0/1,—,1 para sociedade anônima de futebol que ainda não é SAF,1 for a football corporation that is not yet an SAF
+divida_cobertura_motivo,texto,—,Explicação quando a cobertura da dívida difere de 100%,Explanation when debt coverage differs from 100%
+reapresentacao_status,texto,—,Situação do exercício no documento do ano seguinte (reapresentado ou não),Status of the year in the following year's document (restated or not)
+reapresentacao_declarada,texto,—,"Se a reapresentação foi explicada em nota (S, N, parcial, rotulado)","Whether the restatement was explained in the notes (Y, N, partial, labelled)"
+reapresentacao_campos_base,texto,—,"Campos da base que mudaram na reapresentação, com os dois valores","Dataset fields changed by the restatement, with both values"
+reapresentado_no_doc_seguinte,0/1,—,1 quando o exercício foi reapresentado no documento seguinte,1 when the year was restated in the next document
+reapresentacao_afeta_campos_base,0/1,—,1 quando a reapresentação mudou algum campo da base,1 when the restatement changed any dataset field
+bloco_e_status,texto,—,Situação da abertura dos gastos com pessoal por natureza,Status of the personnel cost breakdown
+bloco_f_status,texto,—,Situação da abertura da receita por fonte,Status of the revenue-by-source breakdown
+bloco_g_status,texto,—,Situação da divulgação por segmento de atividade,Status of segment disclosure
+pessoal_decomposto_diferenca,decimal,R$ milhões,Soma dos itens de pessoal − pessoal da base,Sum of personnel items − dataset personnel
+receita_fonte_fecha,texto,—,Se a soma das receitas por fonte fecha com a receita impressa,Whether revenue by source adds up to the printed revenue
+motivo_sem_bloco_efg,texto,—,"Motivo da ausência das aberturas de pessoal, receita e segmento","Reason the personnel, revenue and segment breakdowns are missing"
+pes_salarios_ordenados,decimal,R$ milhões,Pessoal: salários e ordenados,Personnel: wages and salaries
+pes_encargos_sociais,decimal,R$ milhões,Pessoal: encargos sociais,Personnel: payroll taxes
+pes_ferias_13,decimal,R$ milhões,Pessoal: férias e 13º salário,Personnel: holiday pay and 13th salary
+pes_beneficios,decimal,R$ milhões,Pessoal: benefícios,Personnel: benefits
+pes_direito_de_imagem,decimal,R$ milhões,Pessoal: direito de imagem,Personnel: image rights
+pes_premiacoes_bichos,decimal,R$ milhões,Pessoal: premiações (bichos),Personnel: match bonuses
+pes_luvas,decimal,R$ milhões,Pessoal: luvas,Personnel: signing bonuses
+pes_comissoes_agentes,decimal,R$ milhões,Pessoal: comissões de agentes,Personnel: agent fees
+pes_rescisoes_indenizacoes,decimal,R$ milhões,Pessoal: rescisões e indenizações,Personnel: severance and settlements
+pes_amortizacao_atletas,decimal,R$ milhões,Pessoal: amortização de direitos de atletas,Personnel: amortisation of player registrations
+pes_servicos_pessoa_juridica_atletas,decimal,R$ milhões,Pessoal: serviços de pessoa jurídica de atletas,Personnel: services billed by players' companies
+pes_outro,decimal,R$ milhões,Pessoal: outros itens,Personnel: other items
+pessoal_fora_da_base_rs_mi,decimal,R$ milhões,Rubricas de pessoal impressas fora do subtotal usado em pessoal,Personnel items printed outside the subtotal used in pessoal
+pes_salarios_inclui_encargos,S/N,—,S quando salários e encargos vêm numa linha só,Y when wages and payroll taxes come in a single line
+direito_de_imagem_total_rs_mi,decimal,R$ milhões,"Direito de imagem total, dentro ou fora do pessoal","Total image rights, inside or outside personnel costs"
+rec_transmissao,decimal,R$ milhões,Receita: direitos de transmissão,Revenue: broadcasting
+rec_patrocinio_publicidade,decimal,R$ milhões,Receita: patrocínio e publicidade,Revenue: sponsorship and advertising
+rec_bilheteria,decimal,R$ milhões,Receita: bilheteria,Revenue: matchday
+rec_socio_torcedor,decimal,R$ milhões,Receita: sócio-torcedor,Revenue: membership
+rec_premiacao_competicoes,decimal,R$ milhões,Receita: premiações em competições,Revenue: competition prize money
+rec_licenciamento_lojas_royalties,decimal,R$ milhões,"Receita: licenciamento, lojas e royalties","Revenue: licensing, stores and royalties"
+rec_negociacao_atletas,decimal,R$ milhões,Receita: negociação de atletas,Revenue: player trading
+rec_ligas,decimal,R$ milhões,Receita: ligas,Revenue: leagues
+rec_loterias,decimal,R$ milhões,Receita: loterias,Revenue: lotteries
+rec_subvencoes_doacoes_incentivos,decimal,R$ milhões,"Receita: subvenções, doações e incentivos","Revenue: grants, donations and incentives"
+rec_eventos_social_clube,decimal,R$ milhões,Receita: eventos e clube social,Revenue: events and social club
+rec_outras,decimal,R$ milhões,Receita: outras,Revenue: other
+receita_bruta_recorrente_aberta,decimal,R$ milhões,Soma das receitas brutas que compõem a receita comparável,Sum of gross revenues that make up comparable revenue
+transmissao_pct_receita_bruta_rec,decimal,%,Transmissão / receita bruta recorrente aberta,Broadcasting / itemised gross recurring revenue
+futebol_profissional_receita_rs_mi,decimal,R$ milhões,"Receita do segmento futebol profissional, como impressa","Professional football segment revenue, as printed"
+futebol_profissional_resultado_rs_mi,decimal,R$ milhões,"Resultado do segmento futebol profissional, como impresso","Professional football segment result, as printed"
+segmento_criterio_rateio,texto,—,Critério de rateio entre segmentos declarado pela entidade,Segment allocation criterion stated by the entity
+ressalva_ids,texto,—,Ressalvas da fonte que atingem a linha (ver ressalvas.csv),Source limitations affecting the row (see ressalvas.csv)
+tem_ressalva,S/N,—,S quando alguma ressalva atinge a linha,Y when any limitation affects the row

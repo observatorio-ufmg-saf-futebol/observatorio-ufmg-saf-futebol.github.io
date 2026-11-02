@@ -1,0 +1,26 @@
+---
+title: "About"
+description: "What Observatório SAF is, how the dataset is built and who runs it."
+---
+
+Observatório SAF organises and opens up the figures in the financial statements of Brazilian football clubs, whether football companies (SAFs) or member-owned associations. The aim is for fans, journalists and researchers to read club finances from the same documented, verified dataset.
+
+## How the dataset is built
+
+1. **Collection.** Financial statements published by the clubs: balance sheet, income statement, notes and auditor's report.
+2. **Extraction.** Each value is read from the original document, recording the page and passage it came from.
+3. **Verification.** A second, independent reading checks every field against the source.
+4. **Reconciliation.** Every balance sheet is tested: assets = current liabilities + non-current liabilities + equity. The few cases that do not close are documented in the dataset.
+5. **Release.** Each version ships with a number, a changelog and an integrity manifest. Corrections are logged in [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).
+
+## Limits
+
+The data reflect what each club published and how. Different formats across clubs and years require standardisation choices, described in the dictionary. Nothing here is investment advice or an assessment of any club's management.
+
+## Coordination
+
+Observatório SAF is run by **Tiago Amadeu Braga de Lisboa**, an accountant and master's student in Controllership and Accounting at the Federal University of Minas Gerais (UFMG).
+
+## Contact
+
+Questions, corrections and suggestions: open an issue on [Observatório's GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).

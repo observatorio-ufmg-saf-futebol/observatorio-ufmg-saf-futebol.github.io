@@ -1,0 +1,64 @@
+---
+title: "Glossário"
+description: "Os termos que mais aparecem nos balanços dos clubes, em linguagem direta."
+---
+
+<dl class="obs-glossario">
+
+<dt>AFAC (adiantamento para futuro aumento de capital)</dt>
+<dd>Dinheiro que o acionista coloca na empresa antes de o aumento de capital ser formalizado. Nas SAFs, é uma forma comum de o investidor bancar o clube. Enquanto o aumento não é aprovado, o valor pode aparecer no patrimônio líquido ou no passivo, conforme as condições do adiantamento.</dd>
+
+<dt>Ativo</dt>
+<dd>Tudo o que o clube controla e que deve trazer dinheiro no futuro: caixa, valores a receber, estádio e CT, direitos sobre atletas. O <em>ativo circulante</em> é a parte que vira dinheiro em até um ano.</dd>
+
+<dt>Passivo</dt>
+<dd>Tudo o que o clube deve: salários, impostos, empréstimos, parcelas de compra de jogadores, acordos trabalhistas. O <em>passivo circulante</em> é o que vence em até um ano.</dd>
+
+<dt>Patrimônio líquido (ou patrimônio social)</dt>
+<dd>A diferença entre o que o clube tem e o que deve (ativo − passivo). Nas SAFs chama-se patrimônio líquido; nas associações, patrimônio social.</dd>
+
+<dt>Passivo a descoberto</dt>
+<dd>Situação em que o clube deve mais do que tem: o patrimônio líquido fica negativo. É comum no futebol brasileiro e indica que as dívidas acumuladas superam todos os bens e direitos registrados.</dd>
+
+<dt>Receita operacional</dt>
+<dd>O que o clube arrecada com sua atividade: direitos de transmissão, patrocínio, bilheteria, sócio-torcedor, premiações e venda de atletas. Na base do Observatório, a <em>receita comparável</em> separa itens que distorcem a comparação entre clubes e anos; o dicionário de dados detalha cada caso.</dd>
+
+<dt>EBIT (resultado operacional)</dt>
+<dd>Quanto sobra ou falta da operação antes de juros e outras receitas e despesas financeiras. Mostra se o futebol se paga, sem o efeito das dívidas. Não é o lucro final do exercício.</dd>
+
+<dt>Direitos sobre atletas</dt>
+<dd>Valores pagos para contratar jogadores (e, em certas condições, gastos com a formação na base) registrados como ativo intangível. São amortizados ao longo do contrato, ou seja, viram despesa aos poucos.</dd>
+
+<dt>Liquidez corrente</dt>
+<dd>Ativo circulante dividido pelo passivo circulante. Abaixo de 1, o clube tem mais contas vencendo em um ano do que recursos de curto prazo para pagá-las.</dd>
+
+<dt>Alavancagem</dt>
+<dd>Quanto do ativo é financiado por dívidas (passivo ÷ ativo). Acima de 100%, o clube está com passivo a descoberto.</dd>
+
+<dt>SAF (Sociedade Anônima do Futebol)</dt>
+<dd>Tipo de empresa criado pela Lei nº 14.193/2021 para o futebol. O clube associativo pode transferir o futebol para uma SAF e vender participação a investidores.</dd>
+
+<dt>Regime Centralizado de Execuções (RCE)</dt>
+<dd>Mecanismo previsto na Lei das SAF que reúne as cobranças judiciais contra o clube num único juízo e organiza o pagamento aos credores com parte das receitas.</dd>
+
+<dt>Recuperação judicial</dt>
+<dd>Processo em que a empresa (ou, com a Lei das SAF, também o clube associativo) negocia com os credores um plano de pagamento sob supervisão da Justiça, para evitar a falência.</dd>
+
+<dt>Partes relacionadas</dt>
+<dd>Pessoas e empresas ligadas ao clube ou ao seu dono, como o acionista controlador e empresas do mesmo grupo. As transações com elas precisam ser divulgadas nas notas explicativas.</dd>
+
+<dt>Parecer (relatório) do auditor</dt>
+<dd>A opinião de um auditor independente sobre as demonstrações. Pode vir <em>sem ressalva</em>, <em>com ressalva</em> (há um problema localizado), adversa ou com abstenção de opinião. Um <em>parágrafo de ênfase</em> chama atenção para algo relevante sem mudar a opinião.</dd>
+
+<dt>Continuidade operacional</dt>
+<dd>A premissa de que o clube seguirá funcionando. Quando o auditor aponta incerteza relevante sobre a continuidade, há dúvida séria sobre a capacidade de honrar compromissos.</dd>
+
+<dt>Mecanismo de solidariedade</dt>
+<dd>Regra da FIFA que reserva até 5% do valor de uma transferência internacional aos clubes que formaram o atleta entre os 12 e os 23 anos.</dd>
+
+<dt>ITG 2003</dt>
+<dd>Norma do Conselho Federal de Contabilidade que orienta a contabilidade das entidades esportivas, incluindo o registro dos direitos sobre atletas e dos gastos com formação.</dd>
+
+</dl>
+
+Sentiu falta de algum termo? [Sugira pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).

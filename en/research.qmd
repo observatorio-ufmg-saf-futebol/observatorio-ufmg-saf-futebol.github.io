@@ -1,0 +1,28 @@
+---
+title: "Research"
+description: "Papers, preprints and presentations that use the Observatório dataset."
+---
+
+The Observatório grew out of master's research in Financial Accounting and Controllership at the Federal University of Minas Gerais (UFMG), Brazil. This page lists published work and preprints the journals allow us to share.
+
+## Published papers
+
+<!--
+- **Title.** Authors. *Journal*, v. X, n. Y, p. Z, year. [DOI](https://doi.org/...)
+-->
+
+[First publications coming soon.]{.obs-vazio}
+
+## Preprints
+
+Shared only when the journal's policy allows it (see [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/), formerly Sherpa Romeo).
+
+[No preprints yet.]{.obs-vazio}
+
+## Conference presentations
+
+[No presentations listed yet.]{.obs-vazio}
+
+## Used the dataset in your research?
+
+Let us know on [GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues) and your work will be listed among third-party publications using the data.

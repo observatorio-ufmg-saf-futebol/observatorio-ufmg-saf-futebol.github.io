@@ -1,0 +1,27 @@
+---
+title: "Data"
+description: "Club dashboard, dataset download and data dictionary."
+painel:
+  baixar: "Download the data"
+  dicionario: "Data dictionary"
+---
+
+```{ojs}
+//| echo: false
+lang = "en"
+base = "../dados/"
+```
+
+The dataset gathers figures from the financial statements published by Brazilian football companies (SAFs) and member-owned clubs. Every number was taken from the original document, checked by a second, independent reading and tested against the balance sheet identity (assets = liabilities + equity).
+
+::: {.obs-aviso}
+**Before comparing clubs:** values in nominal BRL millions. A blank field means no source was available, never zero. Comparable revenue excludes items such as player sales, as described in the dictionary. Associations and SAFs use different statement formats, so check `regime_entidade` before comparing.
+:::
+
+{{< include ../_painel.qmd >}}
+
+## How to cite
+
+> Lisboa, T. A. B. de (2026). *Observatório SAF: financial dataset of Brazilian football clubs* (Version 1.0.0). <https://github.com/observatorio-ufmg-saf-futebol/dados>
+
+Free for non-commercial use with attribution ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)). Published corrections are logged in [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).

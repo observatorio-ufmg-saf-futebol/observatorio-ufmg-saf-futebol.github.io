@@ -1,0 +1,57 @@
+# English edition. Rendered separately into ../_site/en (see ../PUBLICAR.md).
+project:
+  type: website
+  output-dir: ../_site/en
+
+lang: en
+language:
+  listing-page-minutes-compact: "{0} min read"
+
+website:
+  title: "Observatório SAF"
+  site-url: "https://observatorio-ufmg-saf-futebol.github.io/en/"
+  description: "Open data and writing on the finances of Brazilian football clubs."
+  favicon: ../assets/favicon.svg
+  open-graph: true
+  page-navigation: false
+  navbar:
+    logo: ../assets/marca.svg
+    logo-alt: "Observatório SAF"
+    title: "Observatório SAF"
+    left:
+      - href: data.qmd
+        text: Data
+      - href: column/index.qmd
+        text: Column
+      - href: research.qmd
+        text: Research
+      - href: glossary.qmd
+        text: Glossary
+      - href: about.qmd
+        text: About
+    right:
+      - href: ../index.html
+        text: Português
+        aria-label: "Ler em português"
+      - icon: github
+        href: https://github.com/observatorio-ufmg-saf-futebol
+        aria-label: "Observatório SAF on GitHub"
+  page-footer:
+    left: |
+      Observatório SAF, 2026. Data and texts under
+      [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+    right: |
+      Found an error? [Tell us on GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).
+
+format:
+  html:
+    from: markdown-tex_math_dollars
+    html-math-method: plain
+    respect-user-color-scheme: true
+    theme:
+      light: [cosmo, ../theme/base.scss, ../theme/claro.scss]
+      dark: [cosmo, ../theme/base.scss, ../theme/escuro.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: ../theme/fontes.html

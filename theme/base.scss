@@ -1,0 +1,157 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Source Serif 4", Georgia, serif;
+$headings-font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+$headings-font-weight: 600;
+$font-size-root: 18px;
+$line-height-base: 1.65;
+$navbar-font-family: "Barlow Condensed", sans-serif;
+$web-font-path: false; // não carrega a fonte padrão do tema cosmo
+
+/*-- scss:rules --*/
+
+// ---------- Tipografia ----------
+h1, h2, h3, h4, .navbar, .listing-title, .obs-num {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  letter-spacing: 0.005em;
+}
+h1, .title { font-size: 2.6rem; font-weight: 700; line-height: 1.05; }
+h2 { font-size: 1.75rem; margin-top: 2.2rem; }
+h3 { font-size: 1.3rem; }
+.navbar { font-size: 1.15rem; }
+.navbar-brand .navbar-title { font-weight: 700; }
+main p, main li { max-width: 68ch; }
+.subtitle, .description { color: var(--obs-muted); }
+:focus-visible { outline: 3px solid var(--obs-flag); outline-offset: 2px; }
+
+// Texto de interface e números: Barlow, com algarismos tabulares
+.obs-ui, table, .obs-painel, .listing-date, .listing-reading-time,
+.quarto-title-meta, .obs-aviso, .page-footer {
+  font-family: "Barlow", system-ui, sans-serif;
+}
+table { font-variant-numeric: tabular-nums; }
+
+// ---------- Capa: o campo listrado ----------
+.obs-capa {
+  // Listras de corte de grama, na horizontal, como vistas da arquibancada
+  background:
+    repeating-linear-gradient(
+      180deg,
+      var(--obs-field) 0 56px,
+      color-mix(in srgb, var(--obs-field) 88%, #ffffff) 56px 112px
+    );
+  color: var(--obs-field-ink);
+  padding: 4.5rem 1rem 4rem;
+  margin-top: -1.8rem;
+  margin-bottom: 0;
+}
+.obs-capa-inner { max-width: 960px; margin: 0 auto; padding: 0 1rem; }
+.obs-capa h1 {
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  line-height: 0.98;
+  margin: 0 0 1.2rem;
+  color: var(--obs-field-ink);
+  max-width: 14ch;
+}
+.obs-capa p {
+  font-size: 1.15rem;
+  max-width: 52ch;
+  margin: 0;
+  color: color-mix(in srgb, var(--obs-field-ink) 88%, transparent);
+}
+.obs-demo-flag {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: var(--obs-flag);
+  color: #1A2421;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 3px;
+  font-size: 0.95rem;
+}
+
+// ---------- As duas metades do campo ----------
+.obs-metades {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1rem 2rem;
+}
+.obs-metades::before { // linha do meio-campo
+  content: "";
+  position: absolute;
+  top: 2rem; bottom: 1rem; left: 50%;
+  border-left: 2px solid var(--obs-line);
+}
+.obs-metades::after { // círculo central
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 84px; height: 84px;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--obs-line);
+  border-radius: 50%;
+  background: var(--obs-bg);
+}
+.obs-metade { padding: 0 3.2rem 0 0; position: relative; z-index: 1; }
+.obs-metade + .obs-metade { padding: 0 0 0 3.2rem; }
+.obs-metade h2 { margin-top: 0; font-size: 2rem; }
+.obs-metade ul { list-style: none; padding: 0; margin: 1rem 0 0; }
+.obs-metade li { padding: 0.45rem 0; border-bottom: 1px solid var(--obs-line); }
+.obs-metade li a { font-weight: 600; }
+.obs-metade li span { display: block; color: var(--obs-muted); font-size: 0.95rem; }
+
+@media (max-width: 720px) {
+  .obs-capa { padding: 3rem 1rem 2.8rem; }
+  .obs-metades { grid-template-columns: 1fr; padding-top: 2rem; }
+  .obs-metades::before { left: 1rem; right: 1rem; top: 50%; bottom: auto; border-left: 0; border-top: 2px solid var(--obs-line); }
+  .obs-metade, .obs-metade + .obs-metade { padding: 0 0 2.5rem; }
+  .obs-metade + .obs-metade { padding-top: 2.5rem; }
+}
+
+// ---------- Avisos ----------
+.obs-aviso {
+  border-left: 4px solid var(--obs-flag);
+  background: var(--obs-panel);
+  padding: 0.8rem 1rem;
+  margin: 1.2rem 0;
+  font-size: 0.98rem;
+}
+
+// ---------- Painel ----------
+.obs-painel form, .obs-painel .observablehq form { font-family: "Barlow", sans-serif; }
+.obs-painel { margin-bottom: 2.5rem; }
+.obs-painel figure { margin: 0.5rem 0 1.5rem; }
+.obs-painel svg, .obs-painel figure { background: transparent !important; }
+.obs-painel svg text { font-family: "Barlow", sans-serif; }
+.obs-negativo { color: var(--obs-debit); }
+.obs-downloads a { margin-right: 1.2rem; font-family: "Barlow", sans-serif; font-weight: 600; }
+
+// ---------- Glossário ----------
+dl.obs-glossario dt {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+}
+dl.obs-glossario dd { margin: 0.2rem 0 0; max-width: 68ch; }
+
+// ---------- Coluna ----------
+.obs-coluna-intro { font-size: 1.1rem; color: var(--obs-muted); max-width: 60ch; }
+.quarto-listing .listing-title { font-size: 1.5rem; font-weight: 600; }
+
+// Metadados e categorias do Quarto em caixa normal, não em maiúsculas
+.quarto-title-meta-heading, .quarto-category, .listing-categories .listing-category {
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+// ---------- Pesquisa ----------
+.obs-vazio { color: var(--obs-muted); font-style: italic; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

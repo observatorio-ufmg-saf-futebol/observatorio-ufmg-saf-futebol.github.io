@@ -1,0 +1,26 @@
+---
+title: "Sobre"
+description: "O que é o Observatório SAF, como a base é feita e quem coordena."
+---
+
+O Observatório SAF organiza e abre os números das demonstrações financeiras dos clubes de futebol brasileiros, sejam Sociedades Anônimas do Futebol, sejam associações. O objetivo é que torcedores, jornalistas e pesquisadores leiam as contas a partir da mesma base, documentada e conferida.
+
+## Como a base é feita
+
+1. **Coleta.** Demonstrações financeiras publicadas pelos próprios clubes: balanço, demonstração do resultado, notas explicativas e relatório do auditor.
+2. **Extração.** Cada valor é lido no documento original, com registro da página e do trecho de onde saiu.
+3. **Conferência.** Uma segunda leitura, independente da primeira, confere campo a campo contra a fonte.
+4. **Reconciliação.** Todo balanço é testado: ativo = passivo circulante + passivo não circulante + patrimônio líquido. Os poucos casos que não fecham ficam documentados na própria base.
+5. **Publicação.** Cada versão sai com número, histórico de mudanças e manifesto de integridade. Correções ficam registradas em [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).
+
+## Limites
+
+Os dados refletem o que cada clube publicou e como publicou. Formatos diferentes entre clubes e anos exigem escolhas de padronização, descritas no dicionário. Os textos e o painel não são recomendação de investimento nem avaliação da gestão de nenhum clube.
+
+## Coordenação
+
+O Observatório é coordenado por **Tiago Amadeu Braga de Lisboa**, contador e mestrando em Controladoria e Contabilidade na Universidade Federal de Minas Gerais (UFMG).
+
+## Contato
+
+Dúvidas, correções e sugestões: abra uma *issue* no [GitHub do Observatório](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).

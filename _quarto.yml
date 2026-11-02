@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+  # A versão em inglês é um projeto próprio (en/_quarto.yml), renderizado
+  # para _site/en. Ver PUBLICAR.md.
+  render:
+    - "*.qmd"
+    - "coluna/**/*.qmd"
+    - "!en/"
+  resources:
+    - dados/
+    - .nojekyll
+
+lang: pt-BR
+language:
+  listing-page-minutes-compact: "{0} min de leitura"
+
+website:
+  title: "Observatório SAF"
+  site-url: "https://observatorio-ufmg-saf-futebol.github.io/"
+  description: "Dados abertos e textos sobre as finanças dos clubes de futebol brasileiros."
+  favicon: assets/favicon.svg
+  open-graph: true
+  page-navigation: false
+  navbar:
+    logo: assets/marca.svg
+    logo-alt: "Observatório SAF"
+    title: "Observatório SAF"
+    left:
+      - href: dados.qmd
+        text: Dados
+      - href: coluna/index.qmd
+        text: Coluna
+      - href: pesquisa.qmd
+        text: Pesquisa
+      - href: glossario.qmd
+        text: Glossário
+      - href: sobre.qmd
+        text: Sobre
+    right:
+      - href: en/index.html
+        text: English
+        aria-label: "Read in English"
+      - icon: github
+        href: https://github.com/observatorio-ufmg-saf-futebol
+        aria-label: "GitHub do Observatório SAF"
+  page-footer:
+    left: |
+      Observatório SAF, 2026. Dados e textos sob licença
+      [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br).
+    right: |
+      Achou um erro? [Avise pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).
+
+format:
+  html:
+    from: markdown-tex_math_dollars
+    html-math-method: plain
+    respect-user-color-scheme: true
+    theme:
+      light: [cosmo, theme/base.scss, theme/claro.scss]
+      dark: [cosmo, theme/base.scss, theme/escuro.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: theme/fontes.html

@@ -1,0 +1,13 @@
+---
+title: "From the balance sheet to the stands"
+subtitle: "The Observatório's column for fans"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+  feed: true
+---
+
+[What the books say about your team, in short pieces without jargon. The column is written in Portuguese first ([read all pieces](../../coluna/index.html)); selected pieces are translated here.]{.obs-coluna-intro}

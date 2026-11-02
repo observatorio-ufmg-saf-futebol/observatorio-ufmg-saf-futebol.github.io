@@ -1,0 +1,48 @@
+---
+title: "Five questions to read your club's balance sheet"
+description: "You don't need to be an accountant. Five questions and four numbers are enough to understand any club's finances."
+date: 2026-11-08
+categories: [getting started]
+---
+
+[Leia em português](../../../../coluna/posts/2026-11-cinco-perguntas/index.html)
+
+Every year Brazilian clubs publish their financial statements. They are long documents full of tables and notes, and most fans never open them. But much of what matters fits into five questions.
+
+## 1. Does the club owe more than it owns?
+
+Look for **equity** at the bottom of the balance sheet (member-owned clubs call it *patrimônio social*). It is the difference between everything the club owns and everything it owes.
+
+If the number is negative, shown in brackets, the club has **negative equity**: its debts exceed all recorded assets. This is common in Brazilian football. It does not mean the club will fold tomorrow, but it shows decades of deficits piling up.
+
+## 2. Can it pay next year's bills?
+
+Compare **current assets** (cash and amounts coming in within a year) with **current liabilities** (what falls due within a year). Divide one by the other and you get the current ratio.
+
+Below 1, more bills fall due than short-term resources can cover. In practice, the club will rely on advancing future revenue, selling players, renegotiating debt or a cash injection from the owner.
+
+## 3. How much of the revenue goes on wages?
+
+Add up personnel costs (wages, image rights, payroll taxes) and divide by revenue. That shows what is left for everything else: facilities, youth teams, interest, signings.
+
+For reference, UEFA caps squad costs at 70% of revenue for clubs in European competitions. UEFA's measure is broader, since it also includes amortisation of transfer fees and agent fees, but the idea is the same: a wage bill that is too high leaves no room for mistakes.
+
+## 4. Does football pay for itself without selling players?
+
+Check the **operating result**, what is left before interest. Then see how much of the revenue came from player sales.
+
+Selling players is part of the business, but it is volatile income. A club that only breaks even in the year of a big sale is betting that year will come round again. In the Observatório dataset, comparable revenue leaves player sales out precisely to show this.
+
+## 5. What did the auditor say?
+
+The independent auditor's report sits at the start or end of the document. Look for three things:
+
+- **Qualified opinion**: the auditor found a problem and says where.
+- **Emphasis of matter**: something relevant that deserves attention, without changing the opinion.
+- **Material uncertainty about going concern**: serious doubt about the club's ability to keep meeting its obligations.
+
+None of these is a verdict, but each is a reason to read the notes more carefully.
+
+## Where to find the numbers
+
+Clubs publish their statements on their own websites, usually in a transparency section. To skip that step, the [Observatório dashboard](../../../data.qmd) already lays out these indicators by club and year, and the [glossary](../../../glossary.qmd) explains each term.

@@ -1,0 +1,60 @@
+---
+title: "Observatório SAF"
+pagetitle: "Observatório SAF"
+page-layout: full
+title-block-banner: false
+listing:
+  id: latest
+  contents: "column/posts"
+  sort: "date desc"
+  type: default
+  max-items: 3
+  fields: [date, title, description, reading-time]
+---
+
+```{=html}
+<style>#title-block-header { display: none; }</style>
+<section class="obs-capa column-screen">
+  <div class="obs-capa-inner">
+    <h1>Your club's books, opened up.</h1>
+    <p>Figures from the financial statements of Brazilian football companies (SAFs) and
+    member-owned clubs, checked against the source and free to explore, download and research.</p>
+  </div>
+</section>
+
+<section class="obs-metades obs-ui" aria-label="Site sections">
+  <div class="obs-metade">
+    <h2>For fans</h2>
+    <p>See what the numbers say about your team.</p>
+    <ul>
+      <li><a href="column/index.html">The column</a>
+          <span>Short pieces on club finances, no jargon.</span></li>
+      <li><a href="data.html">Club dashboard</a>
+          <span>Revenue, debt and results over the years.</span></li>
+      <li><a href="glossary.html">Glossary</a>
+          <span>Capital advances, negative equity and other balance sheet terms.</span></li>
+    </ul>
+  </div>
+  <div class="obs-metade">
+    <h2>For researchers</h2>
+    <p>A documented, versioned panel dataset.</p>
+    <ul>
+      <li><a href="data.html#baixar">Download the data</a>
+          <span>CSV, Parquet and SQLite, with an integrity manifest.</span></li>
+      <li><a href="data.html#dicionario">Data dictionary</a>
+          <span>Definition, unit and formula for every field.</span></li>
+      <li><a href="research.html">Papers and preprints</a>
+          <span>Publications that use the dataset.</span></li>
+    </ul>
+  </div>
+</section>
+```
+
+::: {.column-body}
+## Latest from the column
+
+::: {#latest}
+:::
+
+Most pieces are published in Portuguese first; selected ones are translated here.
+:::

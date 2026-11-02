@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+// Paleta "gramado": verde de campo, branco de cal, amarelo de bandeirinha.
+$gramado: #1F4D3A;
+$cal: #F7F8F5;
+$tinta: #1A2421;
+$bandeirinha: #E8B931;
+$debito: #B23A3A;
+$neblina: #5E6F67;
+
+$body-bg: $cal;
+$body-color: $tinta;
+$primary: $gramado;
+$link-color: $gramado;
+$navbar-bg: $gramado;
+$navbar-fg: $cal;
+$navbar-hl: $bandeirinha;
+$footer-bg: $cal;
+$code-bg: #ECEFEA;
+$border-color: #D5DCD6;
+
+/*-- scss:rules --*/
+:root {
+  --obs-bg: #{$cal};
+  --obs-ink: #{$tinta};
+  --obs-muted: #{$neblina};
+  --obs-field: #{$gramado};
+  --obs-field-ink: #{$cal};
+  --obs-flag: #{$bandeirinha};
+  --obs-debit: #{$debito};
+  --obs-line: #D5DCD6;
+  --obs-chart: #{$gramado};
+  --obs-panel: #EEF2EE;
+}

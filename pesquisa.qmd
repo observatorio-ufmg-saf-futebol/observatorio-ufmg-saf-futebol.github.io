@@ -1,0 +1,40 @@
+---
+title: "Pesquisa"
+description: "Artigos, preprints e apresentações que usam a base do Observatório."
+---
+
+O Observatório nasce de uma pesquisa de mestrado em Contabilidade Financeira e Controladoria na Universidade Federal de Minas Gerais (UFMG). Esta página reúne os trabalhos publicados e os preprints autorizados pelas revistas.
+
+## Artigos publicados
+
+<!--
+Modelo de entrada (copie, preencha e apague a linha de "em breve"):
+
+- **Título do artigo.** Autores. *Nome do periódico*, v. X, n. Y, p. Z, ano.
+  [DOI](https://doi.org/...) · [PDF de acesso aberto](...)
+-->
+
+[Primeiras publicações em breve.]{.obs-vazio}
+
+## Preprints
+
+Versões de trabalhos em avaliação ou já aceitos, divulgadas apenas quando a política da revista permite (consulte o [Diadorim](https://diadorim.ibict.br/) para periódicos brasileiros e o [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/), antigo Sherpa Romeo, para internacionais).
+
+<!--
+- **Título.** Autores. Preprint, ano. [SciELO Preprints](...) · Versão X.
+  *Em avaliação / Aceito em: Nome do periódico.*
+-->
+
+[Nenhum preprint publicado até o momento.]{.obs-vazio}
+
+## Apresentações em eventos
+
+<!--
+- **Título.** Autores. Nome do evento, cidade/online, data. [Slides](...)
+-->
+
+[Nenhuma apresentação registrada até o momento.]{.obs-vazio}
+
+## Usou a base na sua pesquisa?
+
+Conte pelo [GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues) e o trabalho entra numa lista de publicações de terceiros que usam os dados.
