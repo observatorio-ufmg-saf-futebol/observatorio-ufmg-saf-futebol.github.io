@@ -214,3 +214,7 @@ dl.obs-glossario dd { margin: 0.2rem 0 0; max-width: 68ch; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+// Acesso à base completa
+.obs-acesso { font-family: "Barlow", system-ui, sans-serif; max-width: 68ch; }
+.obs-acesso p { margin-bottom: 0.7rem; }

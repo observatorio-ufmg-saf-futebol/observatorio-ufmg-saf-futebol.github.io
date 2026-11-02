@@ -37,4 +37,4 @@ Versões de trabalhos em avaliação ou já aceitos, divulgadas apenas quando a 
 
 ## Usou a base na sua pesquisa?
 
-Conte pelo [GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues) e o trabalho entra numa lista de publicações de terceiros que usam os dados.
+Conte pelo [GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues) e o trabalho entra numa lista de publicações de terceiros que usam os dados.

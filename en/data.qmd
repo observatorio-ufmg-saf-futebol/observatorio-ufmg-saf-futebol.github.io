@@ -1,8 +1,9 @@
 ---
 title: "Data"
-description: "Club dashboard, dataset download and data dictionary."
+description: "Club dashboard, data dictionary and access to the full dataset."
 painel:
-  baixar: "Download the data"
+  acesso: "Access to the full dataset"
+  erratas: "Errata"
   dicionario: "Data dictionary"
 ---
 
@@ -24,4 +25,4 @@ The dataset gathers figures from the financial statements published by Brazilian
 
 > Lisboa, T. A. B. de (2026). *Observatório SAF: financial dataset of Brazilian football clubs* (Version 1.0.1). <https://github.com/observatorio-ufmg-saf-futebol/dados>
 
-Free for non-commercial use with attribution ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)). Published corrections are logged in [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).
+Non-commercial use with attribution ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).

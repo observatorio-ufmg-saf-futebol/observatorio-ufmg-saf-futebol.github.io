@@ -11,7 +11,7 @@ Observatório SAF organises and opens up the figures in the financial statements
 2. **Extraction.** Each value is read from the original document, recording the page and passage it came from.
 3. **Verification.** A second, independent reading checks every field against the source.
 4. **Reconciliation.** Every balance sheet is tested: assets = current liabilities + non-current liabilities + equity. The few cases that do not close are documented in the dataset.
-5. **Release.** Each version ships with a number, a changelog and an integrity manifest. Corrections are logged in [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).
+5. **Release.** Each version ships with a number, a changelog and an integrity manifest. Corrections are logged on the [Data](data.qmd#erratas) page.
 
 ## Limits
 
@@ -23,4 +23,4 @@ Observatório SAF is run by **Tiago Amadeu Braga de Lisboa**, an accountant and 
 
 ## Contact
 
-Questions, corrections and suggestions: open an issue on [Observatório's GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).
+Questions, corrections and suggestions: open an issue on [Observatório's GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).

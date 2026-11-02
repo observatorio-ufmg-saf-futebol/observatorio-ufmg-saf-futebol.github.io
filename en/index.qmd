@@ -18,7 +18,7 @@ listing:
   <div class="obs-capa-inner">
     <h1>Your club's books, opened up.</h1>
     <p>Figures from the financial statements of Brazilian football companies (SAFs) and
-    member-owned clubs, checked against the source and free to explore, download and research.</p>
+    member-owned clubs, checked against the source and open to explore and research.</p>
   </div>
 </section>
 
@@ -39,8 +39,8 @@ listing:
     <h2>For researchers</h2>
     <p>A documented, versioned panel dataset.</p>
     <ul>
-      <li><a href="data.html#baixar">Download the data</a>
-          <span>CSV, Parquet and SQLite, with an integrity manifest.</span></li>
+      <li><a href="data.html#acesso">Access to the full dataset</a>
+          <span>31 tables with source traceability, on request.</span></li>
       <li><a href="data.html#dicionario">Data dictionary</a>
           <span>Definition, unit and formula for every field.</span></li>
       <li><a href="research.html">Papers and preprints</a>

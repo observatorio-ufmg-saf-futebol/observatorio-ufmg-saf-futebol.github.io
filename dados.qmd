@@ -1,8 +1,9 @@
 ---
 title: "Dados"
-description: "Painel por clube, download da base e dicionário de variáveis."
+description: "Painel por clube, dicionário de variáveis e acesso à base completa."
 painel:
-  baixar: "Baixar a base"
+  acesso: "Acesso à base completa"
+  erratas: "Erratas"
   dicionario: "Dicionário de variáveis"
 ---
 
@@ -24,4 +25,4 @@ A base reúne valores das demonstrações financeiras publicadas por SAFs e asso
 
 > LISBOA, Tiago Amadeu Braga de. **Observatório SAF: base de dados financeiros de clubes de futebol brasileiros**. Versão 1.0.1. 2026. Disponível em: <https://github.com/observatorio-ufmg-saf-futebol/dados>.
 
-Uso livre para fins não comerciais, com citação da fonte ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br)). Correções publicadas ficam registradas em [ERRATAS.md](https://github.com/observatorio-ufmg-saf-futebol/dados/blob/main/ERRATAS.md).
+Uso não comercial, com citação da fonte ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br)).

@@ -61,4 +61,4 @@ description: "Os termos que mais aparecem nos balanços dos clubes, em linguagem
 
 </dl>
 
-Sentiu falta de algum termo? [Sugira pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues).
+Sentiu falta de algum termo? [Sugira pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).

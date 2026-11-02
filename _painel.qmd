@@ -24,9 +24,12 @@ T = ({
     ranking: a => `Todos os clubes em ${a}`,
     top6: "Comparar os 6 primeiros deste ranking",
     tabela: "Valores dos clubes escolhidos",
-    baixarRecorte: "Baixar esta seleção (CSV)", copiarLink: "Copiar link desta comparação", copiado: "Link copiado",
+    copiarLink: "Copiar link desta comparação", copiado: "Link copiado",
     demo: "Prévia com dados fictícios (Clube Exemplo A a F). A base real entra na primeira versão publicada.",
-    baixarPainel: "Painel completo (CSV)", baixarDic: "Dicionário (CSV)", repo: "Todas as tabelas e formatos no GitHub",
+    acesso: html`<p>O painel acima mostra 87 indicadores do painel analítico. A base completa tem 31 tabelas, entre elas a rastreabilidade de cada valor (página e trecho literal da demonstração), as aberturas de receita e de pessoal, dívidas, AFAC e partes relacionadas, reapresentações e desempenho esportivo.</p>
+<p>Ela fica depositada no Zenodo, com DOI, em <strong>acesso restrito</strong>: pesquisadores podem solicitar os arquivos pelo próprio registro, informando a finalidade. Os pedidos são avaliados individualmente e a base é cedida para uso acadêmico não comercial, com citação.</p>
+<p id="obs-zenodo">Registro no Zenodo: em preparação. Enquanto o DOI não é publicado, solicite pelo <a href="https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues">GitHub do Observatório</a>.</p>`,
+    semErratas: "Nenhuma correção publicada até o momento. Erros encontrados podem ser comunicados pelo GitHub do Observatório.",
     versao: "Versão da base", campo: "Campo", tipo: "Tipo", unidade: "Unidade", descricao: "Descrição",
     resumo: (c, n, a, b) => `${c} clubes, ${n} clube-anos, de ${a} a ${b}.`
   },
@@ -41,9 +44,12 @@ T = ({
     ranking: a => `All clubs in ${a}`,
     top6: "Compare the top 6 in this ranking",
     tabela: "Values for the chosen clubs",
-    baixarRecorte: "Download this selection (CSV)", copiarLink: "Copy link to this comparison", copiado: "Link copied",
+    copiarLink: "Copy link to this comparison", copiado: "Link copied",
     demo: "Preview with fictitious data (Clube Exemplo A to F). The real dataset arrives with the first published release.",
-    baixarPainel: "Full panel (CSV)", baixarDic: "Dictionary (CSV)", repo: "All tables and formats on GitHub",
+    acesso: html`<p>The dashboard above shows 87 indicators from the analytical panel. The full dataset has 31 tables, including the traceability of every value (page and literal excerpt of the statement), revenue and personnel breakdowns, debt, capital advances and related parties, restatements and sporting performance.</p>
+<p>It is deposited on Zenodo, with a DOI, under <strong>restricted access</strong>: researchers can request the files through the record itself, stating the purpose. Requests are reviewed individually and the dataset is shared for non-commercial academic use, with citation.</p>
+<p id="obs-zenodo">Zenodo record: in preparation. Until the DOI is published, request access through the <a href="https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues">Observatório's GitHub</a>.</p>`,
+    semErratas: "No corrections published so far. Errors can be reported through the Observatório's GitHub.",
     versao: "Dataset version", campo: "Field", tipo: "Type", unidade: "Unit", descricao: "Description",
     resumo: (c, n, a, b) => `${c} clubs, ${n} club-years, ${a} to ${b}.`
   }
@@ -368,29 +374,29 @@ enderecoAtualizado = {
 ```{ojs}
 //| echo: false
 {
-  const linhas = dados.filter(d => selecao.some(s => s.clube === d.clube))
-    .map(d => ({clube: d.clube, ano: d.ano, regime_entidade: d.regime_entidade, [indicador.campo]: d[indicador.campo]}))
-  const csv = new Blob([d3.csvFormat(linhas)], {type: "text/csv;charset=utf-8"})
   const copiar = html`<button type="button" class="obs-botao">${T.copiarLink}</button>`
   copiar.onclick = async () => {
     try { await navigator.clipboard.writeText(window.location.href); copiar.textContent = T.copiado }
     catch { copiar.textContent = window.location.href }
   }
-  return html`<p class="obs-acoes">${DOM.download(csv, `observatorio-saf_${indicador.campo}.csv`, T.baixarRecorte)}${copiar}</p>`
+  return html`<p class="obs-acoes">${copiar}</p>`
 }
 ```
 
 :::
 
-## {{< meta painel.baixar >}} {#baixar}
+## {{< meta painel.acesso >}} {#acesso}
 
 ```{ojs}
 //| echo: false
-html`<p class="obs-downloads">
-  <a href="${base}painel.csv" download>${T.baixarPainel}</a>
-  <a href="${base}dicionario_painel.csv" download>${T.baixarDic}</a>
-  <a href="https://github.com/observatorio-ufmg-saf-futebol/dados">${T.repo}</a>
-</p>`
+html`<div class="obs-acesso">${T.acesso}</div>`
+```
+
+## {{< meta painel.erratas >}} {#erratas}
+
+```{ojs}
+//| echo: false
+html`<p class="obs-vazio">${T.semErratas}</p>`
 ```
 
 ## {{< meta painel.dicionario >}} {#dicionario}

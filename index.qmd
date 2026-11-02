@@ -19,7 +19,7 @@ listing:
   <div class="obs-capa-inner">
     <h1>O balanço do seu clube, aberto.</h1>
     <p>Dados das demonstrações financeiras de SAFs e associações do futebol brasileiro,
-    conferidos contra a fonte e livres para consulta, download e pesquisa.</p>
+    conferidos contra a fonte e abertos para consulta e pesquisa.</p>
   </div>
 </section>
 
@@ -40,8 +40,8 @@ listing:
     <h2>Para quem pesquisa</h2>
     <p>Base em painel, documentada e versionada.</p>
     <ul>
-      <li><a href="dados.html#baixar">Baixar a base</a>
-          <span>CSV, Parquet e SQLite, com manifesto de integridade.</span></li>
+      <li><a href="dados.html#acesso">Acesso à base completa</a>
+          <span>31 tabelas com rastreabilidade, mediante solicitação.</span></li>
       <li><a href="dados.html#dicionario">Dicionário de variáveis</a>
           <span>Definição, unidade e fórmula de cada campo.</span></li>
       <li><a href="pesquisa.html">Artigos e preprints</a>

@@ -25,4 +25,4 @@ Shared only when the journal's policy allows it (see [Open Policy Finder](https:
 
 ## Used the dataset in your research?
 
-Let us know on [GitHub](https://github.com/observatorio-ufmg-saf-futebol/dados/issues) and your work will be listed among third-party publications using the data.
+Let us know on [GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues) and your work will be listed among third-party publications using the data.
