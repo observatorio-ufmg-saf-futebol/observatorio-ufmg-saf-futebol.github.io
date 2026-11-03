@@ -8,8 +8,11 @@ Código-fonte do site [observatorio-ufmg-saf-futebol.github.io](https://observat
 | `coluna/posts/` | Textos da coluna *Do balanço à arquibancada* (uma pasta por texto) |
 | `en/` | Versão em inglês (projeto Quarto próprio, publicado em `/en/`) |
 | `_painel.qmd` | Painel interativo, compartilhado pelas duas línguas |
-| `dados/` | Painel e dicionário copiados do repositório de dados pelo script de exportação |
+| `dados/` | Painel, dicionário e erratas copiados do repositório de dados pelo script de exportação |
 | `theme/` | Cores, tipografia e estilos (claro e escuro) |
+
+O manual de operação do projeto (atualizar a base, publicar textos, registrar
+artigos) está em `docs/MANUTENCAO.md`, no repositório privado de dados.
 
 ## Renderizar localmente
 

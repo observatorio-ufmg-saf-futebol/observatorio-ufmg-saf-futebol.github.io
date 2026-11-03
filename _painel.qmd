@@ -30,6 +30,7 @@ T = ({
 <p>Ela fica depositada no Zenodo, com DOI, em <strong>acesso restrito</strong>: pesquisadores podem solicitar os arquivos pelo próprio registro, informando a finalidade. Os pedidos são avaliados individualmente e a base é cedida para uso acadêmico não comercial, com citação.</p>
 <p id="obs-zenodo">Registro no Zenodo: em preparação. Enquanto o DOI não é publicado, solicite pelo <a href="https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues">GitHub do Observatório</a>.</p>`,
     semErratas: "Nenhuma correção publicada até o momento. Erros encontrados podem ser comunicados pelo GitHub do Observatório.",
+    colErrata: {versao: "Versão", tabela: "Tabela", clube_ano: "Clube e ano", campo: "Campo", antes: "Antes", depois: "Depois", motivo: "Motivo"},
     versao: "Versão da base", campo: "Campo", tipo: "Tipo", unidade: "Unidade", descricao: "Descrição",
     resumo: (c, n, a, b) => `${c} clubes, ${n} clube-anos, de ${a} a ${b}.`
   },
@@ -50,6 +51,7 @@ T = ({
 <p>It is deposited on Zenodo, with a DOI, under <strong>restricted access</strong>: researchers can request the files through the record itself, stating the purpose. Requests are reviewed individually and the dataset is shared for non-commercial academic use, with citation.</p>
 <p id="obs-zenodo">Zenodo record: in preparation. Until the DOI is published, request access through the <a href="https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues">Observatório's GitHub</a>.</p>`,
     semErratas: "No corrections published so far. Errors can be reported through the Observatório's GitHub.",
+    colErrata: {versao: "Version", tabela: "Table", clube_ano: "Club and year", campo: "Field", antes: "Before", depois: "After", motivo: "Reason"},
     versao: "Dataset version", campo: "Field", tipo: "Type", unidade: "Unit", descricao: "Description",
     resumo: (c, n, a, b) => `${c} clubs, ${n} club-years, ${a} to ${b}.`
   }
@@ -61,6 +63,7 @@ T = ({
 dados = d3.csv(base + "painel.csv", d3.autoType)
 versao = d3.json(base + "versao.json")
 dicionario = d3.csv(base + "dicionario_painel.csv")
+erratas = d3.csv(base + "erratas.csv")
 ```
 
 ```{ojs}
@@ -396,7 +399,14 @@ html`<div class="obs-acesso">${T.acesso}</div>`
 
 ```{ojs}
 //| echo: false
-html`<p class="obs-vazio">${T.semErratas}</p>`
+// A tabela de erratas vem de erratas.csv, no repositório de dados
+erratas.length === 0 ? html`<p class="obs-vazio">${T.semErratas}</p>` :
+Inputs.table(erratas.map(e => ({
+  [T.colErrata.versao]: e.versao, [T.colErrata.tabela]: e.tabela,
+  [T.colErrata.clube_ano]: e.clube_ano, [T.colErrata.campo]: e.campo,
+  [T.colErrata.antes]: e.antes, [T.colErrata.depois]: e.depois,
+  [T.colErrata.motivo]: lang === "pt" ? e.motivo_pt : e.reason_en
+})), {rows: 10, layout: "auto"})
 ```
 
 ## {{< meta painel.dicionario >}} {#dicionario}
