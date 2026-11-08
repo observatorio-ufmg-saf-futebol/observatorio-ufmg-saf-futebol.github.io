@@ -1,7 +1,7 @@
 campo,tipo,unidade,descricao_pt,description_en,grupo,rotulo_pt,rotulo_en,formato
 clube_id,inteiro,—,Identificador único do clube,Unique club identifier,,,,
-clube,texto,—,Nome do clube,Club name,,,,
 ano,inteiro,—,Exercício social impresso nas demonstrações,Fiscal year printed in the statements,,,,
+clube,texto,—,Nome do clube,Club name,,,,
 receita_rec,decimal,R$ milhões,Receita operacional comparável apurada nas notas (sem itens como venda de atletas),Comparable operating revenue from the notes (excluding items such as player sales),balanco,Receita comparável,Comparable revenue,rs
 pessoal,decimal,R$ milhões,Gastos com pessoal na rubrica agregada divulgada,Personnel costs as disclosed in aggregate,balanco,Gastos com pessoal,Personnel costs,rs
 ativo_circ,decimal,R$ milhões,Ativo circulante no fim do exercício,Current assets at year end,balanco,Ativo circulante,Current assets,rs

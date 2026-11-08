@@ -1,7 +1,7 @@
 ---
 title: "Cinco perguntas para ler o balanço do seu clube"
 description: "Não precisa ser contador. Com cinco perguntas e quatro números, dá para entender a situação financeira de qualquer time."
-date: 2026-11-08
+date: 2026-11-07
 categories: [primeiros passos]
 ---
 

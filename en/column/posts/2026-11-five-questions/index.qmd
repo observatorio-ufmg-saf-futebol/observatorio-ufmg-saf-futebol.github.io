@@ -1,7 +1,7 @@
 ---
 title: "Five questions to read your club's balance sheet"
 description: "You don't need to be an accountant. Five questions and four numbers are enough to understand any club's finances."
-date: 2026-11-08
+date: 2026-11-07
 categories: [getting started]
 ---
 
