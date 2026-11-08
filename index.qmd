@@ -41,7 +41,7 @@ listing:
     <p>Base em painel, documentada e versionada.</p>
     <ul>
       <li><a href="dados.html#acesso">Acesso à base completa</a>
-          <span>31 tabelas com rastreabilidade, mediante solicitação.</span></li>
+          <span>84 tabelas com rastreabilidade, mediante solicitação.</span></li>
       <li><a href="dados.html#dicionario">Dicionário de variáveis</a>
           <span>Definição, unidade e fórmula de cada campo.</span></li>
       <li><a href="pesquisa.html">Artigos e preprints</a>

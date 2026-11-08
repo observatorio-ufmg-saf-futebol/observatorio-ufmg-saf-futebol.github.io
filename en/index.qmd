@@ -40,7 +40,7 @@ listing:
     <p>A documented, versioned panel dataset.</p>
     <ul>
       <li><a href="data.html#acesso">Access to the full dataset</a>
-          <span>31 tables with source traceability, on request.</span></li>
+          <span>84 tables with source traceability, on request.</span></li>
       <li><a href="data.html#dicionario">Data dictionary</a>
           <span>Definition, unit and formula for every field.</span></li>
       <li><a href="research.html">Papers and preprints</a>
