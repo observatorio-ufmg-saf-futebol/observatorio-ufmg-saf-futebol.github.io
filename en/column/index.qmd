@@ -1,6 +1,6 @@
 ---
 title: "From the balance sheet to the stands"
-subtitle: "The Observatório's column for fans"
+subtitle: "The Contas em Campo's column for fans"
 listing:
   contents: posts
   sort: "date desc"

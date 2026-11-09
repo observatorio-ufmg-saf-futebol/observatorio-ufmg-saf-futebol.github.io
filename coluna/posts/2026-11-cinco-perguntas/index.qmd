@@ -31,7 +31,7 @@ Como referência, a UEFA limita os gastos com elenco a 70% das receitas para os 
 
 Olhe o **resultado operacional**, o quanto sobra ou falta antes dos juros. Depois veja quanto da receita veio de venda de atletas.
 
-Vender jogador é parte do negócio, mas é uma receita que oscila muito. Um clube que só fecha no azul no ano em que faz uma grande venda está apostando que esse ano vai se repetir. Na base do Observatório, a receita comparável deixa a venda de atletas de fora justamente para mostrar isso.
+Vender jogador é parte do negócio, mas é uma receita que oscila muito. Um clube que só fecha no azul no ano em que faz uma grande venda está apostando que esse ano vai se repetir. Na base do projeto, a receita comparável deixa a venda de atletas de fora justamente para mostrar isso.
 
 ## 5. O que disse o auditor?
 
@@ -45,4 +45,4 @@ Nenhuma dessas expressões é condenação, mas todas são motivo para ler as no
 
 ## Onde encontrar os números
 
-Os clubes publicam as demonstrações no próprio site, em geral numa área de transparência. Se preferir pular essa parte, o [painel do Observatório](../../../dados.qmd) já traz esses indicadores organizados por clube e ano, e o [glossário](../../../glossario.qmd) explica cada termo.
+Os clubes publicam as demonstrações no próprio site, em geral numa área de transparência. Se preferir pular essa parte, o [painel do projeto](../../../dados.qmd) já traz esses indicadores organizados por clube e ano, e o [glossário](../../../glossario.qmd) explica cada termo.

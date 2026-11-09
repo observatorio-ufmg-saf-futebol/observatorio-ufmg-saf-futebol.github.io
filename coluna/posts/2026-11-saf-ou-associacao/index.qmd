@@ -27,7 +27,7 @@ Numa associação, não há esse caminho. O déficit se acumula no patrimônio s
 
 ## O ano da mudança engana
 
-No ano em que a SAF é criada, as demonstrações podem cobrir só alguns meses, a associação pode consolidar a SAF nas próprias contas, e as comparações com o ano anterior perdem sentido. Na base do Observatório, as colunas `regime_entidade`, `exercicio_parcial` e `saf_consolidada_em_associacao` indicam essas situações.
+No ano em que a SAF é criada, as demonstrações podem cobrir só alguns meses, a associação pode consolidar a SAF nas próprias contas, e as comparações com o ano anterior perdem sentido. Na base do projeto, as colunas `regime_entidade`, `exercicio_parcial` e `saf_consolidada_em_associacao` indicam essas situações.
 
 ## Antes de comparar
 

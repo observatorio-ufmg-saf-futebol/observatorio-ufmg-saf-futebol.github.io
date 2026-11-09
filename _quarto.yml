@@ -16,16 +16,16 @@ language:
   listing-page-minutes-compact: "{0} min de leitura"
 
 website:
-  title: "Observatório SAF"
-  site-url: "https://observatorio-ufmg-saf-futebol.github.io/"
+  title: "Contas em Campo"
+  site-url: "https://contasemcampo.github.io/"
   description: "Dados abertos e textos sobre as finanças dos clubes de futebol brasileiros."
   favicon: assets/favicon.svg
   open-graph: true
   page-navigation: false
   navbar:
     logo: assets/marca.svg
-    logo-alt: "Observatório SAF"
-    title: "Observatório SAF"
+    logo-alt: "Contas em Campo"
+    title: "Contas em Campo"
     left:
       - href: dados.qmd
         text: Dados
@@ -42,14 +42,14 @@ website:
         text: English
         aria-label: "Read in English"
       - icon: github
-        href: https://github.com/observatorio-ufmg-saf-futebol
-        aria-label: "GitHub do Observatório SAF"
+        href: https://github.com/contasemcampo
+        aria-label: "GitHub do Contas em Campo"
   page-footer:
     left: |
-      Observatório SAF, 2026. Dados e textos sob licença
+      Contas em Campo, 2026. Dados e textos sob licença
       [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.pt-br).
     right: |
-      Achou um erro? [Avise pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).
+      Achou um erro? [Avise pelo GitHub](https://github.com/contasemcampo/contasemcampo.github.io/issues).
 
 format:
   html:

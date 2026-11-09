@@ -1,9 +1,9 @@
 ---
 title: "Sobre"
-description: "O que é o Observatório SAF, como a base é feita e quem coordena."
+description: "O que é Contas em Campo, como a base é feita e quem coordena."
 ---
 
-O Observatório SAF organiza e abre os números das demonstrações financeiras dos clubes de futebol brasileiros, sejam Sociedades Anônimas do Futebol, sejam associações. O objetivo é que torcedores, jornalistas e pesquisadores leiam as contas a partir da mesma base, documentada e conferida.
+Contas em Campo organiza e abre os números das demonstrações financeiras dos clubes de futebol brasileiros, sejam Sociedades Anônimas do Futebol, sejam associações. O objetivo é que torcedores, jornalistas e pesquisadores leiam as contas a partir da mesma base, documentada e conferida.
 
 ## Como a base é feita
 
@@ -19,8 +19,8 @@ Os dados refletem o que cada clube publicou e como publicou. Formatos diferentes
 
 ## Coordenação
 
-O Observatório é coordenado por **Tiago Amadeu Braga de Lisboa**, contador e mestrando em Controladoria e Contabilidade na Universidade Federal de Minas Gerais (UFMG).
+Contas em Campo é coordenado por **Tiago Amadeu Braga de Lisboa**, contador e mestrando em Controladoria e Contabilidade na Universidade Federal de Minas Gerais (UFMG).
 
 ## Contato
 
-Dúvidas, correções e sugestões: abra uma *issue* no [GitHub do Observatório](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).
+Dúvidas, correções e sugestões: abra uma *issue* no [GitHub do projeto](https://github.com/contasemcampo/contasemcampo.github.io/issues).

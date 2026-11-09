@@ -1,9 +1,9 @@
 ---
 title: "Research"
-description: "Papers, preprints and presentations that use the Observatório dataset."
+description: "Papers, preprints and presentations that use the Contas em Campo dataset."
 ---
 
-The Observatório grew out of master's research in Financial Accounting and Controllership at the Federal University of Minas Gerais (UFMG), Brazil. This page lists published work and preprints the journals allow us to share.
+Contas em Campo grew out of master's research in Financial Accounting and Controllership at the Federal University of Minas Gerais (UFMG), Brazil. This page lists published work and preprints the journals allow us to share.
 
 ## Published papers
 
@@ -25,4 +25,4 @@ Shared only when the journal's policy allows it (see [Open Policy Finder](https:
 
 ## Used the dataset in your research?
 
-Let us know on [GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues) and your work will be listed among third-party publications using the data.
+Let us know on [GitHub](https://github.com/contasemcampo/contasemcampo.github.io/issues) and your work will be listed among third-party publications using the data.

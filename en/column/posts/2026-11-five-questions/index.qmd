@@ -31,7 +31,7 @@ For reference, UEFA caps squad costs at 70% of revenue for clubs in European com
 
 Check the **operating result**, what is left before interest. Then see how much of the revenue came from player sales.
 
-Selling players is part of the business, but it is volatile income. A club that only breaks even in the year of a big sale is betting that year will come round again. In the Observatório dataset, comparable revenue leaves player sales out precisely to show this.
+Selling players is part of the business, but it is volatile income. A club that only breaks even in the year of a big sale is betting that year will come round again. In the Contas em Campo dataset, comparable revenue leaves player sales out precisely to show this.
 
 ## 5. What did the auditor say?
 
@@ -45,4 +45,4 @@ None of these is a verdict, but each is a reason to read the notes more carefull
 
 ## Where to find the numbers
 
-Clubs publish their statements on their own websites, usually in a transparency section. To skip that step, the [Observatório dashboard](../../../data.qmd) already lays out these indicators by club and year, and the [glossary](../../../glossary.qmd) explains each term.
+Clubs publish their statements on their own websites, usually in a transparency section. To skip that step, the [Contas em Campo dashboard](../../../data.qmd) already lays out these indicators by club and year, and the [glossary](../../../glossary.qmd) explains each term.

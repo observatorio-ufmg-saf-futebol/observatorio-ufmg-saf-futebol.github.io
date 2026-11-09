@@ -21,7 +21,7 @@ description: "Os termos que mais aparecem nos balanços dos clubes, em linguagem
 <dd>Situação em que o clube deve mais do que tem: o patrimônio líquido fica negativo. É comum no futebol brasileiro e indica que as dívidas acumuladas superam todos os bens e direitos registrados.</dd>
 
 <dt>Receita operacional</dt>
-<dd>O que o clube arrecada com sua atividade: direitos de transmissão, patrocínio, bilheteria, sócio-torcedor, premiações e venda de atletas. Na base do Observatório, a <em>receita comparável</em> separa itens que distorcem a comparação entre clubes e anos; o dicionário de dados detalha cada caso.</dd>
+<dd>O que o clube arrecada com sua atividade: direitos de transmissão, patrocínio, bilheteria, sócio-torcedor, premiações e venda de atletas. Na base do projeto, a <em>receita comparável</em> separa itens que distorcem a comparação entre clubes e anos; o dicionário de dados detalha cada caso.</dd>
 
 <dt>EBIT (resultado operacional)</dt>
 <dd>Quanto sobra ou falta da operação antes de juros e outras receitas e despesas financeiras. Mostra se o futebol se paga, sem o efeito das dívidas. Não é o lucro final do exercício.</dd>
@@ -61,4 +61,4 @@ description: "Os termos que mais aparecem nos balanços dos clubes, em linguagem
 
 </dl>
 
-Sentiu falta de algum termo? [Sugira pelo GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).
+Sentiu falta de algum termo? [Sugira pelo GitHub](https://github.com/contasemcampo/contasemcampo.github.io/issues).

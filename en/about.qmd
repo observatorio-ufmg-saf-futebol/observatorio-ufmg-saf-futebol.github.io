@@ -1,9 +1,9 @@
 ---
 title: "About"
-description: "What Observatório SAF is, how the dataset is built and who runs it."
+description: "What Contas em Campo is, how the dataset is built and who runs it."
 ---
 
-Observatório SAF organises and opens up the figures in the financial statements of Brazilian football clubs, whether football companies (SAFs) or member-owned associations. The aim is for fans, journalists and researchers to read club finances from the same documented, verified dataset.
+Contas em Campo organises and opens up the figures in the financial statements of Brazilian football clubs, whether football companies (SAFs) or member-owned associations. The aim is for fans, journalists and researchers to read club finances from the same documented, verified dataset.
 
 ## How the dataset is built
 
@@ -19,8 +19,8 @@ The data reflect what each club published and how. Different formats across club
 
 ## Coordination
 
-Observatório SAF is run by **Tiago Amadeu Braga de Lisboa**, an accountant and master's student in Controllership and Accounting at the Federal University of Minas Gerais (UFMG).
+Contas em Campo is run by **Tiago Amadeu Braga de Lisboa**, an accountant and master's student in Controllership and Accounting at the Federal University of Minas Gerais (UFMG).
 
 ## Contact
 
-Questions, corrections and suggestions: open an issue on [Observatório's GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues).
+Questions, corrections and suggestions: open an issue on [Contas em Campo's GitHub](https://github.com/contasemcampo/contasemcampo.github.io/issues).

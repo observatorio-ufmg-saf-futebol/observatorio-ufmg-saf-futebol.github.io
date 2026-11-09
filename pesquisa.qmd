@@ -1,9 +1,9 @@
 ---
 title: "Pesquisa"
-description: "Artigos, preprints e apresentações que usam a base do Observatório."
+description: "Artigos, preprints e apresentações que usam a base do projeto."
 ---
 
-O Observatório nasce de uma pesquisa de mestrado em Contabilidade Financeira e Controladoria na Universidade Federal de Minas Gerais (UFMG). Esta página reúne os trabalhos publicados e os preprints autorizados pelas revistas.
+Contas em Campo nasce de uma pesquisa de mestrado em Contabilidade Financeira e Controladoria na Universidade Federal de Minas Gerais (UFMG). Esta página reúne os trabalhos publicados e os preprints autorizados pelas revistas.
 
 ## Artigos publicados
 
@@ -37,4 +37,4 @@ Versões de trabalhos em avaliação ou já aceitos, divulgadas apenas quando a 
 
 ## Usou a base na sua pesquisa?
 
-Conte pelo [GitHub](https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io/issues) e o trabalho entra numa lista de publicações de terceiros que usam os dados.
+Conte pelo [GitHub](https://github.com/contasemcampo/contasemcampo.github.io/issues) e o trabalho entra numa lista de publicações de terceiros que usam os dados.

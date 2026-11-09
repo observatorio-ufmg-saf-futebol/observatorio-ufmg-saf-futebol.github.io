@@ -1,6 +1,6 @@
-# Observatório SAF — site
+# Contas em Campo — site
 
-Código-fonte do site [observatorio-ufmg-saf-futebol.github.io](https://observatorio-ufmg-saf-futebol.github.io/), feito com [Quarto](https://quarto.org/).
+Código-fonte do site [contasemcampo.github.io](https://contasemcampo.github.io/), feito com [Quarto](https://quarto.org/).
 
 | Caminho | Conteúdo |
 |---|---|

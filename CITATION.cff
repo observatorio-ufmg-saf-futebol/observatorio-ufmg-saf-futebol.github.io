@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "Se citar o Observatório SAF, use a referência abaixo. / If you cite Observatório SAF, please use the reference below."
+message: "Se citar Contas em Campo, use a referência abaixo. / If you cite Contas em Campo, please use the reference below."
 type: software
-title: "Observatório SAF: painel aberto das finanças dos clubes de futebol brasileiros"
+title: "Contas em Campo: painel aberto das finanças dos clubes de futebol brasileiros"
 version: "1.0.0"
 date-released: "2026-11-03"
 license: CC-BY-NC-4.0
-repository-code: "https://github.com/observatorio-ufmg-saf-futebol/observatorio-ufmg-saf-futebol.github.io"
-url: "https://observatorio-ufmg-saf-futebol.github.io/"
+repository-code: "https://github.com/contasemcampo/contasemcampo.github.io"
+url: "https://contasemcampo.github.io/"
 authors:
   - family-names: "Lisboa"
     given-names: "Tiago Amadeu Braga de"
@@ -18,10 +18,10 @@ keywords:
   - "financial statements"
   - "Brazil"
 abstract: >-
-  Site e painel interativo do Observatório SAF, que abre os números das
+  Site e painel interativo de Contas em Campo, que abre os números das
   demonstrações financeiras de clubes de futebol brasileiros (SAFs,
   associações e entidades relacionadas) em 87 indicadores, de 2020 a 2025,
   em português e inglês. /
-  Website and interactive dashboard of Observatório SAF, opening up the
+  Website and interactive dashboard of Contas em Campo, opening up the
   financial statements of Brazilian football clubs across 87 indicators
   (2020–2025), in Portuguese and English.
