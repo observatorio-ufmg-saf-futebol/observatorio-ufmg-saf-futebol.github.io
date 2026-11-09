@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: _site
   # A versão em inglês é um projeto próprio (en/_quarto.yml), renderizado
-  # para _site/en. Ver PUBLICAR.md.
+  # para _site/en. Ver docs/MANUTENCAO.md, no repositório de dados.
   render:
     - "*.qmd"
     - "coluna/**/*.qmd"
